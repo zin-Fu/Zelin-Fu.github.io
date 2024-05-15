@@ -7,15 +7,6 @@ redirect_from:
   - /resume
 ---
 
-## 💥Personal Information
-
-- **Name:** ZeLin Fu
-- **Email:** [202219117@stu.neu.edu.cn](mailto:202219117@stu.neu.edu.cn)
-- **Blog:** [My Blog](https://blog.csdn.net/ove_z?spm=1000.2115.3001.5343)
-- **GitHub:** [github.com/zin-Fu](https://github.com/zin-Fu?tab=repositories)
-
----
-
 ## ⚡Education
 
 ### Northeastern University
@@ -28,13 +19,17 @@ redirect_from:
   > - Awards: Second-class scholarship (twice), Third-class scholarship, Innovation and Entrepreneurship Scholarship, Award of merit student
   > - Affiliations: ACM Club, School NLP Lab, HACI Human-Computer Interaction Lab, RoboMaster Vision Group
 
+### Xiamen No.1 High School of Fujian
+- Chinese TOP highschool
+- September 2019 - June 2022
+
 ---
 
 ## ✨Skills
 
-- **Programming Languages:** Python, C++, Java
-- **Frameworks:** PyTorch, DeepSpeed, HuggingFace
-- **Tools:** Linux, Git, LaTeX, Docker
+- **Languages:** Python, C++, Java, Matlab, Bash, SQL
+- **Frameworks:** PyTorch, DeepSpeed, HuggingFace, ROS, OpenCV
+- **Tools:** Git, LaTeX, Docker, Jupyter, Drowio
 
 ---
 
