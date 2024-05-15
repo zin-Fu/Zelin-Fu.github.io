@@ -37,11 +37,11 @@ redirect_from:
 - **Province Third Prize** in 14th Blue Bridge Cup Hebei Province C/C++ Programming Competition
 
 ## ✨Internship
-### Xiamen ABB Intelligent Technology Co., Ltd.
+### Xiamen ASEA Brown Boveri Co., Ltd.
 - **Embedded Development Intern**
 - July 2023 – August 2023
 
-### Beijing Codyneo Yike Technology Co., Ltd.
+### Beijing CodNoy Co., Ltd.
 - **Front-end Development Intern**
 - September 2023 – December 2023
 
