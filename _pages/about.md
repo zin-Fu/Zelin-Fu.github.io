@@ -11,7 +11,7 @@ Hi there👋, I'm a second year undergraduate student at Northeastern University
 
 I am very fortunate to be advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) of HACI Lab from  [SSTC](https://sstc.neuq.edu.cn/index.htm), NEU.
 
-You can find my CV here: [Fu's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
+You can find my CV(in Chinese) here: [Fu's Curriculum Vitae](../assets/Curriculum_Vitae.pdf).
 
 [Email](mailto:202219117@stu.neu.edu.cn) / [Github](https://github.com/zin-Fu) / [CSDN](https://blog.csdn.net/ove_z?spm=1000.2115.3001.5343)
 
