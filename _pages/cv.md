@@ -64,8 +64,8 @@ redirect_from:
 
 - **RoboMaster Super Combat**
   - April 2023 – June 2023
-  > - Implemented recognition and shooting of enemy robot armor plates using YOLOv5-face keypoint detection model YOLOX
-  > - Deployed the system to NVIDIA Jetson Orin armor plate and accelerated it using TensorRT
+  > - Implemented recognition and shooting of enemy robot armor plates using YOLOX keypoint detection model based on YOLOv5-face
+  > - Deployed the system to NVIDIA Jetson Orin and accelerated it using TensorRT
 
 ### Smart Garbage Classification Device
 
@@ -89,11 +89,11 @@ redirect_from:
 - **NLP Lab & NTU & UTS**
   - January 2024 – February 2024
   > - Reproduced state-of-the-art papers and various open-source visual-language models (e.g., videollava, llama-vid) to achieve benchmark scores
-  > - Attempted to apply CoT technology (e.g., CcoT) to Video-QA to observe if it improves video understanding
+  > - Attempted to apply CoT technology (e.g., CcoT) to Video-QA to improves model's ability of video reasoning
 
 ### Multimodal Medical Diagnosis
 
 - **HACI Lab**
   - March 2024 – Present
-  > - Collected tongue image dataset and fine-tuned VisualGLM model for tongue diagnosis classification [GitHub](https://github.com/zin-Fu/Tongue-Segmentation-and-classification)
-  > - Designed a program based on Fourier transform to recognize pulse by calling the camera [GitHub](https://github.com/zin-Fu/WristRateMonitor)
+  > - Collected tongue image dataset and use LoRA to fine-tuned VisualGLM model based on deepspeed for tongue diagnosis classification [GitHub repo](https://github.com/zin-Fu/Tongue-Segmentation-and-classification)
+  > - Designed a program based on Fourier transform to recognize pulse by using the web-camera [GitHub repo](https://github.com/zin-Fu/WristRateMonitor)
