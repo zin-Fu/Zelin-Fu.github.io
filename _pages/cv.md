@@ -17,20 +17,20 @@ redirect_from:
 - **Blog:** [My Blog](https://blog.csdn.net/ove_z?spm=1000.2115.3001.5343)
 - **GitHub:** [github.com/zin-Fu](https://github.com/zin-Fu?tab=repositories)
 
-## Education
+## 💯Education
 ### Northeastern University
-- Bachelor of Engineering in Computer Science and Technology | September 2023 – June 2027 (Expected)
+- Bachelor of Engineering in Computer Science and Technology, September 2023 – June 2027 (Expected)
 - **GPA:** 3.91/5.0 (Top 7% in major)
   - I am currently a second year undergraduate at Northeastern University
   - I've received second-class scholarship twice, third-class scholarship once, Innovation and Entrepreneurship Scholarship, and Award of merit student
   - I am a Member of ACM Club, School NLP Lab, HACI Human-Computer Interaction Lab, & RoboMaster Vision Group
 
-## Skills
+## 💥Skills
 - **Programming Languages:** Python, C++, Java
 - **Framework:** PyTorch, DeepSpeed, HuggingFace
 - **Tools:** Linux, Git, Latex, Docker
 
-## Awards
+## 🥇Awards
 - **National Second Prize** in 5th Global Campus Artificial Intelligence Algorithm Elite Competition
 - **National Second Prize** in 2024 Mathematical Contest In Modeling
 - **National Third Prize** in 22nd National College Student Robotics Competition RoboMaster Super Combat
@@ -38,7 +38,7 @@ redirect_from:
 - **Province Second Prize** in 22nd Mech Master Super Combat Regional Competition
 - **Province Third Prize** in 14th Blue Bridge Cup Hebei Province C/C++ Programming Competition
 
-## Internship Experience
+## ✨Internship
 ### Xiamen ABB Intelligent Technology Co., Ltd.
 - **Embedded Development Intern**
 - July 2023 – August 2023
@@ -47,7 +47,7 @@ redirect_from:
 - **Front-end Development Intern**
 - September 2023 – December 2023
 
-## Project Experience (Competitions/Research)
+## ⚡Project Experience (Competitions/Research)
 ### Automatic Targeting System based on YoloX
 - **RoboMaster Competition Project**
 - April 2023 – June 2023
