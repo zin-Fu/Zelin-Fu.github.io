@@ -20,8 +20,8 @@ redirect_from:
   > - Affiliations: ACM Club, School NLP Lab, HACI Human-Computer Interaction Lab, RoboMaster Vision Group
 
 ### Xiamen No.1 High School of Fujian
-- Chinese TOP highschool
-- September 2019 - June 2022
+- One of Chinese **TOP** highschool
+
 
 ---
 
