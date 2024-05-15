@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-# Resume
-
 ## Personal Information
 - **Name:** ZeLin Fu
 - **Email:** [202219117@stu.neu.edu.cn](mailto:202219117@stu.neu.edu.cn)
