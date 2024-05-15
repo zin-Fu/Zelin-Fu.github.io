@@ -15,9 +15,9 @@ redirect_from:
   - September 2023 – June 2027 (Expected)
 - **GPA:** 3.91/5.0 (Top 7% in major)
 
-  > - Currently a second-year undergraduate at Northeastern University
-  > - Awards: Second-class scholarship (twice), Third-class scholarship, Innovation and Entrepreneurship Scholarship, Award of merit student
-  > - Affiliations: ACM Club, School NLP Lab, HACI Human-Computer Interaction Lab, RoboMaster Vision Group
+  > - I'm currently a second-year undergraduate in CS major
+  > - I've won Second-class scholarship (twice), Third-class scholarship, Innovation and Entrepreneurship Scholarship, and Award of merit student
+  > - I am a member of ACM Club, School NLP Lab, HACI Human-Computer Interaction Lab, RoboMaster Vision Group
 
 ### Xiamen No.1 High School of Fujian
 - One of Chinese **TOP** highschool
