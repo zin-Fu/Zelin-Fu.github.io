@@ -17,7 +17,7 @@ redirect_from:
 
   > - I'm currently a second-year undergraduate in CS major
   > - I've won Second-class scholarship (twice), Third-class scholarship, Innovation and Entrepreneurship Scholarship, and Award of merit student
-  > - I am a member of ACM Club, School NLP Lab, HACI Human-Computer Interaction Lab, RoboMaster Vision Group
+  > - I am currently a member of the HACI (Human-Centered Affective Computing and Interaction) Lab and the ACM Club, and I was previously a member of the RoboMaster Vision Group.
 
 ### Xiamen No.1 High School of Fujian
 - One of Chinese **TOP** highschool
@@ -39,6 +39,7 @@ redirect_from:
 - **🥈National Second Prize** in 5th Global Campus Artificial Intelligence Algorithm Elite Competition
 - **🥈National Second Prize** in 2024 Mathematical Contest In Modeling
 - **🥉National Third Prize** in 22nd National RoboMaster Super Combat
+- **🥉National Third Prize** in The 17th China College Student Computer Design Competition
 - **Province First Prize** in 2023 China College Student Engineering Practice and Innovation Ability Competition
 - **Province Second Prize** in 22nd Mech Master Super Combat Regional Competition
 - **Province Third Prize** in 14th Blue Bridge Cup Hebei Province C/C++ Programming Competition
@@ -96,5 +97,5 @@ redirect_from:
 
 - **HACI Lab**
   - March 2024 – Present
-  > - Collected tongue image dataset and use LoRA to fine-tuned VisualGLM model based on deepspeed for tongue diagnosis classification [GitHub repo](https://github.com/zin-Fu/Tongue-Segmentation-and-classification)
+  > - Collected tongue image dataset and use LoRA to fine-tuned VisualGLM model based on deepspeed for tongue diagnosis classification [GitHub repo(Demo)](https://github.com/zin-Fu/Tongue-Segmentation-and-classification)
   > - Designed a program based on Fourier transform to recognize pulse by using the web-camera [GitHub repo](https://github.com/zin-Fu/WristRateMonitor)
