@@ -35,11 +35,11 @@ redirect_from:
 
 ## 💥Awards
 
-- **🥇National FIRST Prize** in 19th National Intelligent Car Competition for College Students - IFLYtek Creative Group
+- **🥇National FIRST Prize** in 19th National SmartCarRace for College Students - IFLYtek Creative Group
 - **🥈National Second Prize** in 5th Global Campus Artificial Intelligence Algorithm Elite Competition
 - **🥈National Second Prize** in 2024 Mathematical Contest In Modeling
 - **🥉National Third Prize** in 22nd National RoboMaster Super Combat
-- **🥉National Third Prize** in The 17th China College Student Computer Design Competition
+- **🥉National Third Prize** in The 17th Chinese Collegiate Computing Competition
 - **Province First Prize** in 2023 China College Student Engineering Practice and Innovation Ability Competition
 - **Province Second Prize** in 22nd Mech Master Super Combat Regional Competition
 - **Province Third Prize** in 14th Blue Bridge Cup Hebei Province C/C++ Programming Competition
