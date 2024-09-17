@@ -112,4 +112,4 @@ redirect_from:
   - March 2024 – Present  
   > - Collected tongue image dataset and fine-tuned VisualGLM with LoRA for tongue diagnosis [GitHub Demo](https://github.com/zin-Fu/Tongue-Segmentation-and-classification)  
   > - Developed pulse recognition program using Fourier transform with webcam [GitHub Demo](https://github.com/zin-Fu/WristRateMonitor)
-  > - Co-authored a paper, currently under review for ICASSP 2025
+  > - A paper is currently under review for ICASSP 2025
