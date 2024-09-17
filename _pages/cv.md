@@ -14,8 +14,6 @@ redirect_from:
 - Bachelor of Engineering in Computer Science and Technology
   - September 2023 – June 2027 (Expected)
 - **GPA:** 3.99/5.0 (Top 5% in major)
-
-  > - I'm currently a second-year undergraduate in CS major
   > - I've won Second-class scholarship (twice), Third-class scholarship, Innovation and Entrepreneurship Scholarship, and Award of merit student
   > - I am currently a member of the HACI (Human-Centered Affective Computing and Interaction) Lab and the ACM Club, and I was previously a member of the RoboMaster Vision Group.
 
