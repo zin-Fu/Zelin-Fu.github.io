@@ -93,8 +93,7 @@ redirect_from:
 
 - **17th Chinese Collegiate Computing Competition**  
   - March 2024 – August 2024
-  > - Applied MFCC features with Fast-DTW and other algorithms for speech correction
-  > - Developed learning platform UI with PyQt
+  > - Applied MFCC features with Fast-DTW and other algorithms for speech correction, developed learning platform UI with PyQt
 ---
 
 ## 👑Research Experience
