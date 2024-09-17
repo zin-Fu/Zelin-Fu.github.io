@@ -92,10 +92,9 @@ redirect_from:
 ### Learning Assistant for Hearing-Impaired Individuals
 
 - **17th Chinese Collegiate Computing Competition**  
-  - March 2024 – August 2024  
-  > - Developed learning platform UI with PyQt
+  - March 2024 – August 2024
   > - Applied MFCC features with Fast-DTW and other algorithms for speech correction
-
+  > - Developed learning platform UI with PyQt
 ---
 
 ## 👑Research Experience
