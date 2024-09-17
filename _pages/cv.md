@@ -80,8 +80,15 @@ redirect_from:
 - **Global Campus AI Algorithm Competition**  
   - December 2023 – January 2024  
   > - Trained different object detection models, applied ensemble and bounding box fusion for inference  
-  > - Collected and semi-supervised labeled datasets with web crawlers, the data pre-processing code open-sourced on ([GitHub](https://github.com/zin-Fu/Automation-Data-Processing))  
+  > - Collected and semi-supervised labeled datasets with web crawlers, the data pre-processing code open-sourced on ([GitHub](https://github.com/zin-Fu/Automation-Data-Processing))
+  
+### Learning Assistant for Hearing-Impaired Individuals
 
+- **17th Chinese Collegiate Computing Competition**  
+  - March 2024 – August 2024
+  > - Applied MFCC features with Fast-DTW and other algorithms for speech correction
+  > - Developed learning platform UI with PyQt, integrated speech transcription API
+  
 ### Intelligent Rescue System
 
 - **19th SmartCarRace for College Students**  
@@ -89,11 +96,6 @@ redirect_from:
   > - Built Camera-Lidar Calibration system for target detection and navigation with ROS, part of the code open-sourced on ([GitHub](https://github.com/zin-Fu/YOLOv5-ROS-Navigation))  
   > - Implemented line following algorithm base on U-Net 
 
-### Learning Assistant for Hearing-Impaired Individuals
-
-- **17th Chinese Collegiate Computing Competition**  
-  - March 2024 – August 2024
-  > - Applied MFCC features with Fast-DTW and other algorithms for speech correction, developed learning platform UI with PyQt
 ---
 
 ## 👑Research Experience
