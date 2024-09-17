@@ -28,14 +28,14 @@ redirect_from:
 ## ✨Skills
 
 - **Languages:** Python, C++, Java, Matlab, Bash, SQL
-- **Frameworks:** PyTorch, DeepSpeed, HuggingFace, ROS, OpenCV, PyQT
-- **Tools:** Git, LaTeX, Docker, Jupyter, Drowio
+- **Frameworks:** PyTorch, ROS, OpenCV, Hugging Face Transformers, Scikit-Learn, DeepSpeed
+- **Tools:** Git, LaTeX, Docker, Jupyter, Drowio, Seaborn
 
 ---
 
 ## 💥Awards
 
-- **🥇National FIRST Prize** in 19th National SmartCarRace for College Students - IFLYtek Creative Group
+- **🥇National First Prize** in 19th National SmartCarRace for College Students - IFLYtek Creative Group
 - **🥈National Second Prize** in 5th Global Campus Artificial Intelligence Algorithm Elite Competition
 - **🥈National Second Prize** in 2024 Mathematical Contest In Modeling
 - **🥉National Third Prize** in 22nd National RoboMaster Super Combat
@@ -64,38 +64,52 @@ redirect_from:
 
 ### Automatic Targeting System based on YoloX
 
-- **RoboMaster Super Combat**
-  - April 2023 – June 2023
-  > - Implemented recognition and shooting of enemy robot armor plates using YOLOX keypoint detection model based on YOLOv5-face
-  > - Deployed the system to NVIDIA Jetson Orin and accelerated it using TensorRT
+- **RoboMaster Super Combat**  
+  - April 2023 – June 2023  
+  > - Developed enemy robot armor detection and targeting using YOLOX based on YOLOv5-face  
+  > - Deployed on NVIDIA Jetson Orin with TensorRT acceleration  
 
 ### Smart Garbage Classification Device
 
-- **Engineering Practice and Innovation Ability Competition**
-  - April 2023 – July 2023
-  > - Classified and recognized common types of household garbage using YOLOv3 object detection model, deployed on K210 development board, and built a physical intelligent garbage bin prototype
+- **Engineering Practice and Innovation Ability Competition**  
+  - April 2023 – July 2023  
+  > - Built a garbage classification system using YOLOv3, deployed on K210 board, and developed a smart garbage bin prototype  
 
 ### Road Disease Detection
 
-- **Global Campus Artificial Intelligence Algorithm Elite Competition**
-  - December 2023 – January 2024
-  > - Trained multiple object detection models and used ensemble models and weighted fusion of bounding boxes for joint inference
-  > - Collected and annotated datasets using web crawlers and implemented semi-supervised labeling with trained models
+- **Global Campus AI Algorithm Competition**  
+  - December 2023 – January 2024  
+  > - Trained different object detection models, applied ensemble and bounding box fusion for inference  
+  > - Collected and semi-supervised labeled datasets with web crawlers, the data pre-processing code open-sourced on ([GitHub](https://github.com/zin-Fu/Automation-Data-Processing))  
 
+### Intelligent Rescue System
+
+- **19th SmartCarRace for College Students**  
+  - April 2024 – August 2024  
+  > - Built Camera-Lidar Calibration system for target detection and navigation with ROS, part of the code open-sourced on ([GitHub](https://github.com/zin-Fu/YOLOv5-ROS-Navigation))  
+  > - Implemented line following algorithm base on U-Net 
+
+### Learning Assistant for Hearing-Impaired Individuals
+
+- **17th Chinese Collegiate Computing Competition**  
+  - March 2024 – August 2024  
+  > - Developed learning platform UI with PyQt
+  > - Applied MFCC features with Fast-DTW and other algorithms for speech correction
 ---
 
 ## 👑Research Experience
 
-### Video Understanding Enhancement based on Vision-Language model
+### Video Understanding Enhancement with Vision-Language Model
 
-- **NLP Lab & NTU & UTS**
-  - January 2024 – February 2024
-  > - Reproduced state-of-the-art papers and various open-source visual-language models (e.g., videollava, llama-vid) to achieve benchmark scores
-  > - Attempted to apply CoT technology (e.g., CcoT) to Video-QA to improves model's ability of video reasoning
+- **NLP Lab & NTU & UTS**  
+  - January 2024 – February 2024  
+  > - Reproduced SOTA visual-language models (e.g., videollava, llama-vid) to achieve benchmark scores  
+  > - Applied CoT (e.g., CcoT) to Video-QA to improve video reasoning  
 
 ### Multimodal Medical Diagnosis
 
-- **HACI Lab**
-  - March 2024 – Present
-  > - Collected tongue image dataset and use LoRA to fine-tuned VisualGLM model based on deepspeed for tongue diagnosis classification [GitHub repo(Demo)](https://github.com/zin-Fu/Tongue-Segmentation-and-classification)
-  > - Designed a program based on Fourier transform to recognize pulse by using the web-camera [GitHub repo](https://github.com/zin-Fu/WristRateMonitor)
+- **HACI Lab**  
+  - March 2024 – Present  
+  > - Collected tongue image dataset and fine-tuned VisualGLM with LoRA for tongue diagnosis [GitHub Demo](https://github.com/zin-Fu/Tongue-Segmentation-and-classification)  
+  > - Developed pulse recognition program using Fourier transform with webcam [GitHub Demo](https://github.com/zin-Fu/WristRateMonitor)
+  > - Co-authored a paper, currently under review for ICASSP 2025
