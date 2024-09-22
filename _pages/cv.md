@@ -7,51 +7,51 @@ redirect_from:
   - /resume
 ---
 
-## 🎓 **Education**
+# 🎓 **Education**
 
 ### **Northeastern University**  
 **Bachelor of Engineering in Computer Science and Technology**  
 _September 2023 – June 2027 (Expected)_  
-**GPA:** 3.99/5.0 (Top 5% in major)
+**GPA:** 3.99/5.0 _(Top 5% in major)_
 
 - **Awards & Scholarships**:
-  - Second-class Scholarship (2x, Top 4.5%)
-  - Third-class Scholarship (Top 25%)
-  - Innovation and Entrepreneurship Scholarship (2x)
+  - Second-class Scholarship _(2x, Top 4.5%)_
+  - Third-class Scholarship _(Top 25%)_
+  - Innovation and Entrepreneurship Scholarship _(2x)_
   - Merit Student Award
 
 - **Affiliations**:
-  - Member, HACI Lab (Human-Centered Affective Computing and Interaction)
-  - Member, ACM Club
-  - Former Member, RoboMaster Vision Group
+  - Member, **HACI Lab** (Human-Centered Affective Computing and Interaction)
+  - Member, **ACM Club**
+  - Former Member, **RoboMaster Vision Group**
 
 ### **Xiamen No.1 High School of Fujian**  
-- Ranked among China's **Top High Schools**
+_Ranked among China's **Top High Schools**_
 
 ---
 
-## ✨ **Skills**
+# ✨ **Skills**
 
-- **Languages:** Python, C++, Java, Matlab, Bash, SQL
-- **Frameworks:** PyTorch, ROS, OpenCV, Hugging Face Transformers, Scikit-Learn, DeepSpeed
-- **Tools:** Git, LaTeX, Docker, Jupyter, Drowio, Seaborn
-
----
-
-## 💥 **Awards**
-
-- **🥇 National First Prize** — 19th National SmartCarRace for College Students (IFLYtek Creative Group)  
-- **🥈 National Second Prize** — 5th Global Campus Artificial Intelligence Algorithm Elite Competition  
-- **🥈 National Second Prize** — 2024 Mathematical Contest In Modeling  
-- **🥉 National Third Prize** — 22nd National RoboMaster Super Combat  
-- **🥉 National Third Prize** — The 17th Chinese Collegiate Computing Competition  
-- **🏅 Province First Prize** — 2023 China College Student Engineering Practice and Innovation Ability Competition  
-- **🏅 Province Second Prize** — 22nd Mech Master Super Combat Regional Competition  
-- **🏅 Province Third Prize** — 14th Blue Bridge Cup Hebei Province C/C++ Programming Competition
+- **Languages**: Python, C++, Java, Matlab, Bash, SQL  
+- **Frameworks**: PyTorch, ROS, OpenCV, Hugging Face Transformers, Scikit-Learn, DeepSpeed  
+- **Tools**: Git, LaTeX, Docker, Jupyter, Drowio, Seaborn
 
 ---
 
-## 🤝 **Internship Experience**
+# 💥 **Awards**
+
+🥇 **National First Prize** — 19th National SmartCarRace for College Students _(IFLYtek Creative Group)_
+🥈 **National Second Prize** — 5th Global Campus Artificial Intelligence Algorithm Elite Competition
+🥈 **National Second Prize** — 2024 Mathematical Contest In Modeling
+🥉 **National Third Prize** — 22nd National RoboMaster Super Combat
+🥉 **National Third Prize** — 17th Chinese Collegiate Computing Competition
+🏅 **Province First Prize** — 2023 China College Student Engineering Practice and Innovation Ability Competition
+🏅 **Province Second Prize** — 22nd Mech Master Super Combat Regional Competition
+🏅 **Province Third Prize** — 14th Blue Bridge Cup Hebei Province C/C++ Programming Competition
+
+---
+
+# 🤝 **Internship Experience**
 
 ### **Xiamen ASEA Brown Boveri Co., Ltd.**  
 **Embedded Development Intern**  
@@ -63,12 +63,12 @@ _September 2023 – December 2023_
 
 ---
 
-## 💡 **Projects**
+# 💡 **Projects**
 
 ### **Automatic Targeting System based on YoloX**  
 **RoboMaster Super Combat**  
 _April 2023 – June 2023_  
-- Developed enemy robot armor detection and targeting using YOLOX (based on YOLOv5-face)  
+- Developed enemy robot armor detection and targeting using YOLOX _(based on YOLOv5-face)_  
 - Deployed on NVIDIA Jetson Orin with TensorRT acceleration  
 
 ### **Smart Garbage Classification Device**  
@@ -92,18 +92,18 @@ _March 2024 – August 2024_
 ### **Intelligent Rescue System**  
 **19th SmartCarRace for College Students**  
 _April 2024 – August 2024_  
-- Built Camera-Lidar Calibration system for target detection and navigation using ROS, part of code open-sourced on [GitHub](https://github.com/zin-Fu/YOLOv5-ROS-Navigation)  
+- Built Camera-Lidar Calibration system for target detection and navigation using ROS, code open-sourced on [GitHub](https://github.com/zin-Fu/YOLOv5-ROS-Navigation)  
 - Implemented line-following algorithm based on U-Net  
 
 ---
 
-## 📚 **Research Experience**
+# 📚 **Research Experience**
 
 ### **Video Understanding Enhancement with Vision-Language Model**  
 **NLP Lab, NTU & UTS**  
 _January 2024 – February 2024_  
-- Reproduced SOTA visual-language models (e.g., videollava, llama-vid) to achieve benchmark scores  
-- Applied Chain-of-Thought (CoT) reasoning (e.g., CcoT) to Video-QA to improve video reasoning  
+- Reproduced SOTA visual-language models _(e.g., videollava, llama-vid)_ to achieve benchmark scores  
+- Applied Chain-of-Thought (CoT) reasoning _(e.g., CcoT)_ to Video-QA to improve video reasoning  
 
 ### **Multimodal Medical Diagnosis**  
 **HACI Lab**  
@@ -111,4 +111,3 @@ _March 2024 – Present_
 - Collected tongue image dataset and fine-tuned VisualGLM with LoRA for tongue diagnosis ([GitHub Demo](https://github.com/zin-Fu/Tongue-Segmentation-and-classification))  
 - Developed pulse recognition program using Fourier transform with webcam ([GitHub Demo](https://github.com/zin-Fu/WristRateMonitor))  
 - A paper is currently under review for ICASSP 2025
-
