@@ -92,7 +92,7 @@ _March 2024 – August 2024_
 ### **Intelligent Rescue System**  
 **19th SmartCarRace for College Students**  
 _April 2024 – August 2024_  
-- Built Camera-Lidar Calibration system for target detection and navigation using ROS, code open-sourced on [GitHub](https://github.com/zin-Fu/YOLOv5-ROS-Navigation)  
+- Built Camera-Lidar Calibration system for target detection and navigation using ROS, part of code open-sourced on [GitHub](https://github.com/zin-Fu/YOLOv5-ROS-Navigation)  
 - Implemented line-following algorithm based on U-Net  
 
 ---
