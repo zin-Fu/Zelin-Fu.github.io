@@ -7,16 +7,22 @@ redirect_from:
   - /resume
 ---
 
-## ⚡Education
+## 🎓Education
 
 ### Northeastern University
+**Bachelor of Engineering in Computer Science and Technology**  
+_September 2023 – June 2027 (Expected)_  
+**GPA:** 3.99/5.0 (Top 5% in major)
 
-- Bachelor of Engineering in Computer Science and Technology
-  - September 2023 – June 2027 (Expected)
-- **GPA:** 3.99/5.0 (Top 5% in major)
-  
-  > - I've won Second-class scholarship (twice), Third-class scholarship, Innovation and Entrepreneurship Scholarship, and Award of merit student
-  > - I am currently a member of the HACI (Human-Centered Affective Computing and Interaction) Lab and the ACM Club, and I was previously a member of the RoboMaster Vision Group.
+- **Awards & Scholarships**:
+  - Second-class Scholarship (2x)
+  - Third-class Scholarship
+  - Innovation and Entrepreneurship Scholarship
+  - Merit Student Award
+- **Affiliations**:
+  - Member, HACI Lab (Human-Centered Affective Computing and Interaction)
+  - Member, ACM Club
+  - Former Member, RoboMaster Vision Group
 
 ### Xiamen No.1 High School of Fujian
 - One of Chinese **TOP** highschool
