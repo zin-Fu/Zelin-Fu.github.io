@@ -14,11 +14,10 @@ redirect_from:
 _September 2023 – June 2027 (Expected)_  
 **GPA:** 3.99/5.0 _(Top 5% in major)_
 
-- **Awards & Scholarships**:
+- **Scholarships**:
   - Second-class Scholarship _(2x, Top 4.5%)_
   - Third-class Scholarship _(Top 25%)_
   - Innovation and Entrepreneurship Scholarship _(2x)_
-  - Merit Student Award
 
 - **Affiliations**:
   - Member, **HACI Lab** (Human-Centered Affective Computing and Interaction)
