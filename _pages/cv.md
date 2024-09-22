@@ -41,12 +41,19 @@ _Ranked among China's **Top High Schools**_
 # 💥 **Awards**
 
 🥇 **National First Prize** — 19th National SmartCarRace for College Students _(IFLYtek Creative Group)_
+
 🥈 **National Second Prize** — 5th Global Campus Artificial Intelligence Algorithm Elite Competition
+
 🥈 **National Second Prize** — 2024 Mathematical Contest In Modeling
+
 🥉 **National Third Prize** — 22nd National RoboMaster Super Combat
+
 🥉 **National Third Prize** — 17th Chinese Collegiate Computing Competition
+
 🏅 **Province First Prize** — 2023 China College Student Engineering Practice and Innovation Ability Competition
+
 🏅 **Province Second Prize** — 22nd Mech Master Super Combat Regional Competition
+
 🏅 **Province Third Prize** — 14th Blue Bridge Cup Hebei Province C/C++ Programming Competition
 
 ---
