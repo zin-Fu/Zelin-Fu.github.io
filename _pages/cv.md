@@ -15,14 +15,13 @@ _September 2023 – June 2027 (Expected)_
 **GPA:** 3.99/5.0 _(Top 5% in major)_
 
 - **Scholarships**:
-  - Second-class Scholarship _(2x, Top 4.5%)_
-  - Third-class Scholarship _(Top 25%)_
+  - Second-class Scholarship _(2x, Top 4.5%)_, Third-class Scholarship _(Top 25%)_
   - Innovation and Entrepreneurship Scholarship _(2x)_
 
 - **Affiliations**:
-  - Member, **HACI Lab** (Human-Centered Affective Computing and Interaction)
-  - Member, **ACM Club**
-  - Former Member, **RoboMaster Vision Group**
+  - **HACI Lab** (Human-Centered Affective Computing and Interaction)
+  - **ACM Club**
+  - (Former)**RoboMaster Vision Group**
 
 ### **Xiamen No.1 High School of Fujian**  
 _Ranked among China's **Top High Schools**_
@@ -33,7 +32,7 @@ _Ranked among China's **Top High Schools**_
 
 - **Languages**: Python, C++, Java, Matlab, Bash, SQL  
 - **Frameworks**: PyTorch, ROS, OpenCV, Hugging Face Transformers, Scikit-Learn, DeepSpeed  
-- **Tools**: Git, LaTeX, Docker, Jupyter, Drowio, Seaborn
+- **Tools**: Git, LaTeX, Docker, Jupyter, Drowio
 
 ---
 
