@@ -21,7 +21,7 @@ _September 2023 – June 2027 (Expected)_
 - **Affiliations**:
   - **HACI Lab** (Human-Centered Affective Computing and Interaction)
   - **ACM Club**
-  - (Former)**RoboMaster Vision Group**
+  - **RoboMaster Vision Group** (Former)
 
 ### **Xiamen No.1 High School of Fujian**  
 _Ranked among China's **Top High Schools**_
