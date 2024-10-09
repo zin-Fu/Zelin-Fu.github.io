@@ -106,7 +106,7 @@ _January 2024 – February 2024_
 
 ### **Multimodal Medical Diagnosis**  
 **HACI Lab**  
-_March 2024 – Present_  
+_March 2024 – October 2024_  
 - Collected tongue image dataset and use In-Context Multitask Learning in LLMs for tongue diagnosis ([GitHub Demo](https://github.com/zin-Fu/Tongue-Segmentation-and-classification))  
 - Developed pulse recognition program using Fourier transform with webcam ([GitHub Demo](https://github.com/zin-Fu/WristRateMonitor))
 - Detect facial color and puffiness via OpenCV
