@@ -334,5 +334,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=JDmE01DZdGkXQ0lEhwzVqn7jQF83J8xE415Ecdxcg4U"></script>
