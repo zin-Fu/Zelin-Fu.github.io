@@ -151,8 +151,13 @@
         <li><a href="https://www.youtube.com/user/{{ author.youtube }}"><i class="fab fa-fw fa-youtube icon-pad-right" aria-hidden="true"></i>YouTube</a></li>
       {% endif %}
       {% if author.zhihu %}
-      <li><a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
-      {% endif %}      
+        <li><a href="{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
+      {% endif %}
     </ul>
-  </div>
-</div>
+    
+    <!-- 插入 JavaScript 地球仪 -->
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=JDmE01DZdGkXQ0lEhwzVqn7jQF83J8xE415Ecdxcg4U"></script>
+
+  </div> <!-- 结束 author__urls-wrapper -->
+
+</div> <!-- 结束 itemscope 的主 div -->
