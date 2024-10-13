@@ -15,4 +15,3 @@ You can find my CV here:   [中文简历(I'm still workinig on it~)](https://git
 
 [Email](mailto:202219117@stu.neu.edu.cn) / [Github](https://github.com/zin-Fu) / [CSDN](https://blog.csdn.net/ove_z?spm=1000.2115.3001.5343)
 
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=JDmE01DZdGkXQ0lEhwzVqn7jQF83J8xE415Ecdxcg4U"></script>
