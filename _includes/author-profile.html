@@ -155,8 +155,16 @@
       {% endif %}
     </ul>
     
-    <!-- 插入 JavaScript 地球仪 -->
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=JDmE01DZdGkXQ0lEhwzVqn7jQF83J8xE415Ecdxcg4U"></script>
+<div style="width: 150px; height: 150px; overflow: hidden;">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=JDmE01DZdGkXQ0lEhwzVqn7jQF83J8xE415Ecdxcg4U"></script>
+  <style>
+    #clstr_globe {
+      transform: scale(0.7); /* 缩放比例为 70% */
+      transform-origin: 0 0; /* 保持缩放后的对齐 */
+    }
+  </style>
+</div>
+
 
   </div> <!-- 结束 author__urls-wrapper -->
 
