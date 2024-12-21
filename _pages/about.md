@@ -17,5 +17,9 @@ You can find my CV here:   [中文简历(I'm still workinig on it)](https://gith
 
 ---
 
-### News
-- **[ICASSP 2025]** My paper has been accepted by ICASSP 2025! 🎉
+### 🌟 News
+- **🎉 [ICASSP 2025]**  
+  Excited to announce that my paper,  
+  *"In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis"*,  
+  has been **accepted** to **ICASSP 2025**! 🎊🎓  
+
