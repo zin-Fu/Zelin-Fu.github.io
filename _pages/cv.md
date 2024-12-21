@@ -111,4 +111,4 @@ _March 2024 – October 2024_
 - Developed pulse recognition program using Fourier transform with webcam ([GitHub Demo](https://github.com/zin-Fu/WristRateMonitor))
 - Detect facial color and puffiness via OpenCV
 - Use LLM + RAG for the analysis and recommendation of diagnostic results
-- A paper is currently under review for ICASSP 2025
+- Published a paper accepted by **ICASSP 2025**
