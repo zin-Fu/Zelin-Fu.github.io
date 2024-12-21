@@ -13,5 +13,9 @@ I am very fortunate to be advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn
 
 You can find my CV here:   [中文简历(I'm still workinig on it)](https://github.com/zin-Fu/Zelin-Fu.github.io/blob/master/assets/main.pdf) & [English CV](https://zin-fu.github.io/Zelin-Fu.github.io//cv/)
 
-[Email](mailto:202219117@stu.neu.edu.cn) / [Github](https://github.com/zin-Fu) / [CSDN](https://blog.csdn.net/ove_z?spm=1000.2115.3001.5343)
+[Email](mailto:202219117@stu.neu.edu.cn) / [Github](https://github.com/zin-Fu) / [Blog](https://blog.csdn.net/ove_z?spm=1000.2115.3001.5343)
 
+---
+
+### News
+- **[ICASSP 2025]** My paper has been accepted by ICASSP 2025! 🎉
