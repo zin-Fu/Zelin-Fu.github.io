@@ -18,5 +18,5 @@ You can find my CV here: [Zelin's curriculum vitae](https://zin-fu.github.io/Zel
 ---
 
 ### 🌟 News
-- _2024.12_ **[ICASSP 2025]** My paper *"In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis"* has been accepted by ICASSP 2025! 🎉
+- **[ICASSP 2025 | 2024.12]** My paper *"In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis"* has been accepted by ICASSP 2025! 🎉
 
