@@ -15,17 +15,13 @@ _September 2023 – June 2027 (Expected)_
 **GPA:** 3.99/5.0 _(Top 5% in major)_
 
 - **Scholarships**:
-  - National Scholarship _(Top 0.2% in China)_
-  - Second-class Scholarship _(2x, Top 4.5%)_, Third-class Scholarship _(Top 25%)_
-  - Innovation and Entrepreneurship Scholarship _(2x)_
-
-- **Affiliations**:
-  - **HACI Lab** (Human-Centered Affective Computing and Interaction)
-  - **ACM Club**
-  - **RoboMaster Vision Group** (Former)
+  - **National Scholarship** _(Top 0.2% in China)_  
+  - **Second-class Scholarship** _(2x, Top 4.5%)_  
+  - **Third-class Scholarship** _(Top 25%)_  
+  - **Innovation and Entrepreneurship Scholarship** _(2x)_  
 
 ### **Xiamen No.1 High School of Fujian**  
-_Ranked among China's **Top High Schools**_
+_Ranked among China's **Top High Schools**_  
 
 ---
 
@@ -111,4 +107,3 @@ _March 2024 – October 2024_
 - Developed pulse recognition program using Fourier transform with webcam ([GitHub Demo](https://github.com/zin-Fu/WristRateMonitor))
 - Detect facial color and puffiness via OpenCV
 - Use LLM + RAG for the analysis and recommendation of diagnostic results
-- Published a paper accepted by **ICASSP 2025**
