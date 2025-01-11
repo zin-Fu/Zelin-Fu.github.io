@@ -15,7 +15,8 @@ _September 2023 – June 2027 (Expected)_
 **GPA:** 3.99/5.0 _(Top 5% in major)_
 
 - **Scholarships**:
-  - **National Scholarship** _(Top 0.2% in China)_  
+  - **National Scholarship** _(Top 0.2% in China)_
+  - **Outstanding Student**_(Top 1.5%)_
   - **Second-class Scholarship** _(2x, Top 4.5%)_  
   - **Third-class Scholarship** _(Top 25%)_  
   - **Innovation and Entrepreneurship Scholarship** _(2x)_  
