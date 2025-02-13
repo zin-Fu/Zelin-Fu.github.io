@@ -12,7 +12,7 @@ redirect_from:
 ### **Northeastern University**  
 **Bachelor of Engineering in Computer Science and Technology**  
 _September 2023 – June 2027 (Expected)_  
-**GPA:** 3.99/5.0 _(Top 5% in major)_
+**GPA:** 3.95/5.0 _(Top 6% in major)_
 
 - **Scholarships**:
   - **National Scholarship** _(Top 0.2% in China)_
