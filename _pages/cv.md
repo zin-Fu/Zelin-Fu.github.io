@@ -96,15 +96,25 @@ _April 2024 – August 2024_
 # 📚 **Research Experience**
 
 ### **Video Understanding Enhancement with Vision-Language Model**  
-**NLP Lab, NTU & UTS**  
+**NLP Lab(NEU), Nanyang Technological University, University of Technology Sydney**  
 _January 2024 – February 2024_  
 - Reproduced SOTA visual-language models _(e.g., videollava, llama-vid)_ to achieve benchmark scores  
 - Applied Chain-of-Thought (CoT) reasoning _(e.g., CcoT)_ to Video-QA to improve video reasoning  
 
 ### **Multimodal Medical Diagnosis**  
-**HACI Lab**  
+**HACI Lab(NEU)**  
 _March 2024 – October 2024_  
 - Collected tongue image dataset and use In-Context Multitask Learning in LLMs for tongue diagnosis ([GitHub Demo](https://github.com/zin-Fu/Tongue-Segmentation-and-classification))  
 - Developed pulse recognition program using Fourier transform with webcam ([GitHub Demo](https://github.com/zin-Fu/WristRateMonitor))
 - Detect facial color and puffiness via OpenCV
 - Use LLM + RAG for the analysis and recommendation of diagnostic results
+
+### **A Privacy-Constrained SER Framework using Transformers and Fibonacci Position Embedding**  
+**HACI Lab(NEU), Osaka University**  
+_December 2024 – February 2025_  
+
+### **Multimodal Personality-aware Depression Detection**  
+**HACI Lab(NEU), Osaka University, University of Cambridge, Westlake University, Xiamen University**  
+_October 2024 – February 2025_  
+
+
