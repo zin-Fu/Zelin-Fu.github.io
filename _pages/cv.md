@@ -96,7 +96,7 @@ _April 2024 – August 2024_
 # 📚 **Research Experience**
 
 ### **Video Understanding Enhancement with Vision-Language Model**  
-**NLP Lab(NEU)| NTU | UTS**  
+**NLP Lab(NEU) | NTU | UTS**  
 _January 2024 – February 2024_  
 - Reproduced SOTA visual-language models _(e.g., videollava, llama-vid)_ to achieve benchmark scores  
 - Applied Chain-of-Thought (CoT) reasoning _(e.g., CcoT)_ to Video-QA to improve video reasoning  
