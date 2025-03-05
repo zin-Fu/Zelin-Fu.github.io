@@ -117,7 +117,7 @@ _December 2024 – February 2025_
 
 ### **Multimodal Personality-aware Depression Detection**  
 **HACI Lab(NEU) | OU | CAM | WU | XMU**  
-_October 2024 – April 2025_  
+_October 2024 – May 2025_  
 - Extracted features from video and audio data using various methods (video: OpenFace, ResNet, DenseNet; audio: MFCCs, Wave2Vec, OpenSmile) to build training and test datasets  
 - Developed the pipeline, built model, implemented [baseline code](https://github.com/hacilab/MPDD) for depression detection using both audio and video modalities. 
 - Conducted experiments on the dataset, providing baseline accuracy and F1 scores  
