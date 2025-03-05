@@ -112,9 +112,18 @@ _March 2024 – October 2024_
 ### **A Privacy-Constrained SER Framework using Transformers and Fibonacci Position Embedding**  
 **HACI Lab(NEU) | OU**  
 _December 2024 – February 2025_  
+- Contributed to the writing and editing of the paper
+- Conducted investigation and data collection to support our method
 
 ### **Multimodal Personality-aware Depression Detection**  
 **HACI Lab(NEU) | OU | CAM | WU | XMU**  
 _October 2024 – February 2025_  
+- Extracted features from video and audio data using various methods (video: OpenFace, ResNet, DenseNet; audio: MFCCs, Wave2Vec, OpenSmile) to build training and test datasets  
+- Developed the pipeline, built model, implemented [baseline code](https://github.com/hacilab/MPDD) for depression detection using both audio and video modalities. 
+- Conducted experiments on the dataset, providing baseline accuracy and F1 scores  
+- Built and maintained the [challenge website](https://hacilab.github.io/MPDDChallenge.github.io/), managed code, and assisted participants in the community forum. 
+- (TODO) Write baseline paper
+
+
 
 
