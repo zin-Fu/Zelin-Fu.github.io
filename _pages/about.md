@@ -20,5 +20,5 @@ You can find my CV here: [Zelin's curriculum vitae](https://zin-fu.github.io/Zel
 ### 🌟 News
 
 - _(2025.2)_ A Grand Challenge proposal *"[Multimodal Personality-aware Depression Detection](https://hacilab.github.io/MPDDChallenge.github.io/#HOME)"* has been accepted for the **33rd ACMMM@2025**🎉 
-- _(2024.12)_ My **FIRST** paper *"In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis"* has been accepted by **ICASSP@2025** !🎉
+- _(2024.12)_ My **FIRST** paper *"[In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis]([https://hacilab.github.io/MPDDChallenge.github.io/#HOME](https://ieeexplore.ieee.org/document/10887764))"* has been accepted by **ICASSP@2025** !🎉
 
