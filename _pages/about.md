@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there👋, I'm a third year undergraduate student at Northeastern University. My research interests include **Computer Vision**, **Multimodal-LLMs**, **Embodied AI** and **Affective computing**.
+Hi there👋, I'm a third year undergraduate student at Northeastern University. My research interests include **Large Language Models**, **Computer Vision** and **Embodied AI**.
 
 I am very fortunate to be advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) of HACI Lab from  [SSTC](https://sstc.neuq.edu.cn/index.htm), NEU.
 
