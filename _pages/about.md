@@ -15,20 +15,20 @@ You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17
 
 ---
 
-### 🌟 News
+## 🌟 News
 
 - _(2025.2)_ 🎉 Our Grand Challenge on multimodal depression detection was accepted at **ACMMM 2025** 🎉
 - _(2024.12)_ 🎉 My FIRST paper was accepted by **ICASSP@2025** 
 
 ---
 
-### 🎓 Education
+## 🎓 Education
 
 - **B.S. in Computer Science**, Northeastern University (NEU), 2022–2026 (Expected)  
   GPA: 89.5/100 (Rank: 8/115)  
 
 ---
-### 📄 Publications
+## 📄 Publications
 
 **[The First MPDD Challenge: Multimodal Personality-aware Depression Detection](https://arxiv.org/abs/2505.10034)**  
 `ACMMM 2025` `Accepted`  
@@ -49,7 +49,7 @@ Changzeng Fu, Qi Zhang, **Zelin Fu**, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Sh
 
 ---
 
-### 🏅 Scholarships and Awards
+## 🏅 Scholarships and Awards
 
 **Scholarships**
 -  **National Scholarship** – 1st in Major
@@ -66,7 +66,7 @@ Changzeng Fu, Qi Zhang, **Zelin Fu**, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Sh
 
 ---
 
-### 🛠️ Skills
+## 🛠️ Skills
 
 - **Languages**: Python, C/C++, Java, Bash, Matlab, SQL  
 - **Frameworks**: PyTorch, TensorFlow, DeepSpeed, ROS, OpenCV  
