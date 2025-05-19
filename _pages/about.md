@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-Hi 👋, I am Zelin Fu (傅泽林), a third-year undergraduate at Northeastern University (NEU), majoring in Computer Science. My research interests lie in **Multi-modal LLMs**, **Computer Vision** and **Embodied AI**.
+Hi 👋, I am Zelin Fu (傅泽林), a third-year undergraduate at Northeastern University (NEU), majoring in Computer Science. 
 
-I am very fortunate to be advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) from [HACI Lab](https://sstc.neuq.edu.cn/index.htm), where I work on multimodal affective computing and LLM adaptation.
+<!-- My research interests lie in **Multi-modal LLMs**, **Computer Vision** and **Embodied AI**.-->
+
+I am very fortunate to be advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) from [HACI Lab](https://sstc.neuq.edu.cn/index.htm).
 
 You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17)*
 
