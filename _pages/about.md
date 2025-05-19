@@ -22,8 +22,7 @@ You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17
 
 ## 🎓 Education
 
-- **B.S. in Computer Science**, Northeastern University (NEU), 2022–2026 (Expected)  
-  GPA: 89.5/100 (Rank: 8/115)  
+- **B.S. in Computer Science**, Northeastern University (NEU) | **Rank: 8/115**
 
 
 ## 📄 Publications
