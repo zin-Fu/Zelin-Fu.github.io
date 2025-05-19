@@ -13,7 +13,7 @@ Hi 👋, I am Zelin Fu (傅泽林), a third-year undergraduate at Northeastern U
 
 I am very fortunate to be advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) from [HACI Lab](https://sstc.neuq.edu.cn/index.htm).
 
-You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17)*
+<!-- You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17)*-->
 
 
 ## 🌟 News
