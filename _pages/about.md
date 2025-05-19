@@ -17,8 +17,8 @@ You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17
 
 ### 🌟 News
 
-- _(2025.2)_ A Grand Challenge proposal *"[Multimodal Personality-aware Depression Detection](https://hacilab.github.io/MPDDChallenge.github.io/#HOME)"* has been accepted for the **33rd ACMMM@2025** 
-- _(2024.12)_ My **FIRST** paper *"[In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis](https://ieeexplore.ieee.org/document/10887764)"* has been accepted by **ICASSP@2025** 
+- _(2025.2)_ Our Grand Challenge on multimodal depression detection was accepted at **ACMMM 2025**
+- _(2024.12)_ My FIRST paper was accepted by **ICASSP@2025** 
 
 ---
 
