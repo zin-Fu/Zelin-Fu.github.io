@@ -17,8 +17,8 @@ You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17
 
 ### 🌟 News
 
-- _(2025.2)_ Our Grand Challenge on multimodal depression detection was accepted at **ACMMM 2025**
-- _(2024.12)_ My FIRST paper was accepted by **ICASSP@2025** 
+- _(2025.2)_ 🎉 Our Grand Challenge on multimodal depression detection was accepted at **ACMMM 2025** 🎉
+- _(2024.12)_ 🎉 My FIRST paper was accepted by **ICASSP@2025** 
 
 ---
 
