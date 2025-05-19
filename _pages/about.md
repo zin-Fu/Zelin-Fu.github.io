@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi 👋, I am Zelin Fu (傅泽林), a third-year undergraduate majoring in Computer Science at Northeastern University (NEU), advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) at [HACI Lab, NEU](https://sstc.neuq.edu.cn/index.htm). My research interests include **Multimodal LLMs**, **Computer Vision**, and **Embodied AI**. 
+Hi 👋, I am Zelin Fu, a third-year undergraduate majoring in Computer Science at Northeastern University (NEU), advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) at [HACI Lab, NEU](https://sstc.neuq.edu.cn/index.htm). My research interests include **Multimodal LLMs**, **Computer Vision**, and **Embodied AI**. 
 
 <span style="color:#1E90FF;">I am actively seeking **PhD positions for Fall 2026** and **research internship opportunities**.</span>
 
@@ -22,7 +22,7 @@ You can find my CV [here](/files/resume.pdf) *(Last updated: 2025/05/17)*
 
 ## 🎓 Education
 
-- **B.S. in Computer Science**, Northeastern University (NEU) | **Rank: 8/115**
+**B.S. in Computer Science**, Northeastern University (NEU), **Rank: 8/115**
 
 
 ## 📄 Publications
