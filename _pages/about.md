@@ -13,21 +13,19 @@ I am very fortunate to be advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn
 
 You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17)*
 
----
 
 ## 🌟 News
 
 - _(2025.2)_ 🎉 Our Grand Challenge on multimodal depression detection was accepted at **ACMMM 2025** 🎉
 - _(2024.12)_ 🎉 My FIRST paper was accepted by **ICASSP@2025** 
 
----
 
 ## 🎓 Education
 
 - **B.S. in Computer Science**, Northeastern University (NEU), 2022–2026 (Expected)  
   GPA: 89.5/100 (Rank: 8/115)  
 
----
+
 ## 📄 Publications
 
 **[The First MPDD Challenge: Multimodal Personality-aware Depression Detection](https://arxiv.org/abs/2505.10034)**  
@@ -47,7 +45,7 @@ Changzeng Fu, **Zelin Fu**, Shaojun Yan, Xiaoyong Lyv, Yuliang Zhao
 
 Changzeng Fu, Qi Zhang, **Zelin Fu**, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Shi  
 
----
+
 
 ## 🏅 Scholarships and Awards
 
@@ -64,7 +62,7 @@ Changzeng Fu, Qi Zhang, **Zelin Fu**, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Sh
 - 🥉 National Third Prize – 22nd National RoboMaster Super Combat
 - 🥉 National Third Prize – 17th Chinese Collegiate Computing Competition
 
----
+
 
 ## 🛠️ Skills
 
