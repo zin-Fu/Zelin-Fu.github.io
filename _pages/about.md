@@ -11,7 +11,9 @@ Hi 👋, I am Zelin Fu (傅泽林), a third-year undergraduate at Northeastern U
 
 My research interests lie in **Multi-modal LLMs**, **Computer Vision** and **Embodied AI**.
 
-I am currently advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) at [HACI Lab, NEU](https://sstc.neuq.edu.cn/index.htm), **and am actively seeking PhD opportunities for Fall 2026.**
+I am currently advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) at [HACI Lab, NEU](https://sstc.neuq.edu.cn/index.htm).  
+
+<span style="color:#1E90FF;">I am currently actively seeking **PhD positions for Fall 2026** and **research internship opportunities**.</span
 
 You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17)*
 
