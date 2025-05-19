@@ -13,17 +13,14 @@ Hi 👋, I am Zelin Fu, a third-year undergraduate majoring in Computer Science 
 
 You can find my CV [here](/files/resume.pdf) *(Last updated: 2025/05/17)*
 
-
 ## 🌟 News
 
 - _(2025.2)_ 🎉 Our Grand Challenge on multimodal depression detection was accepted at **ACMMM 2025** 
 - _(2024.12)_ 🎉 My FIRST paper was accepted by **ICASSP@2025** 
 
-
 ## 🎓 Education
 
 **B.S. in Computer Science**, Northeastern University (NEU), **Rank: 8/115**
-
 
 ## 📄 Publications
 
@@ -31,18 +28,13 @@ You can find my CV [here](/files/resume.pdf) *(Last updated: 2025/05/17)*
 `ACMMM 2025` `Accepted`  
 Changzeng Fu, **Zelin Fu**, Xinhe Kuang, Jiacheng Dong, Qi Zhang, Kaifeng Su, Yikai Su, Wenbo Shi, Junfeng Yao, Yuliang Zhao, Shiqi Zhao, Jiadong Wang, Siyang Song, Chaoran Liu, Yuichiro Yoshikawa, Björn Schuller, Hiroshi Ishiguro  
 
-
 **[In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis](https://ieeexplore.ieee.org/document/10887764)**  
 `ICASSP 2025` `Accepted`  
 Changzeng Fu, **Zelin Fu**, Shaojun Yan, Xiaoyong Lyv, Yuliang Zhao  
 
-
 **A Privacy-Constrained Speech Emotion Recognition Framework using Transformers and Fibonacci Position Embedding**  
 `ESWA` `Under Review`  
 Changzeng Fu, Qi Zhang, **Zelin Fu**, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Shi
-
-
-
 
 ## 🏅 Scholarships and Awards
 
@@ -58,8 +50,6 @@ Changzeng Fu, Qi Zhang, **Zelin Fu**, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Sh
 - 🥈 National Second Prize – 2024 Mathematical Contest in Modeling (MCM)
 - 🥉 National Third Prize – 22nd National RoboMaster Super Combat
 - 🥉 National Third Prize – 17th Chinese Collegiate Computing Competition
-
-
 
 ## 🛠️ Skills
 
