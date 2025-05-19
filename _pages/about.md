@@ -7,18 +7,69 @@ redirect_from:
   - /about.html
 ---
 
-Hi there👋, I'm a third year undergraduate student at Northeastern University. My research interests include **Multi-modal LLMs**, **Computer Vision** and **Embodied AI**.
+Hi 👋, I am Zelin Fu (傅泽林), a third-year undergraduate at Northeastern University (NEU), majoring in Computer Science. My research interests lie in **Multi-modal LLMs**, **Computer Vision** and **Embodied AI**.
 
-I am very fortunate to be advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) of HACI Lab from  [SSTC](https://sstc.neuq.edu.cn/index.htm), NEU.
+I am very fortunate to be advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) from [HACI Lab](https://sstc.neuq.edu.cn/index.htm), where I work on multimodal affective computing and LLM adaptation.
 
-You can find my CV here: [Zelin's curriculum vitae](https://zin-fu.github.io/Zelin-Fu.github.io//cv/)
-
-[Email](mailto:202219117@stu.neu.edu.cn) / [Github](https://github.com/zin-Fu) / [Blog](https://blog.csdn.net/ove_z?spm=1000.2115.3001.5343)
+You can find my CV [here](/assets/cv/zelin_fu_cv.pdf) *(Last updated: 2025/05/17)*
 
 ---
 
 ### 🌟 News
 
-- _(2025.2)_ A Grand Challenge proposal *"[Multimodal Personality-aware Depression Detection](https://hacilab.github.io/MPDDChallenge.github.io/#HOME)"* has been accepted for the **33rd ACMMM@2025**🎉 
-- _(2024.12)_ My **FIRST** paper *"[In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis](https://ieeexplore.ieee.org/document/10887764)"* has been accepted by **ICASSP@2025** !🎉
+- _(2025.2)_ A Grand Challenge proposal *"[Multimodal Personality-aware Depression Detection](https://hacilab.github.io/MPDDChallenge.github.io/#HOME)"* has been accepted for the **33rd ACMMM@2025** 
+- _(2024.12)_ My **FIRST** paper *"[In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis](https://ieeexplore.ieee.org/document/10887764)"* has been accepted by **ICASSP@2025** 
 
+---
+
+### 🎓 Education
+
+- **B.S. in Computer Science**, Northeastern University (NEU), 2022–2026 (Expected)  
+  GPA: 89.5/100 (Rank: 8/115)  
+
+---
+### 📄 Publications
+
+**[The First MPDD Challenge: Multimodal Personality-aware Depression Detection](https://arxiv.org/abs/2505.10034)**  
+`ACMMM 2025` `Accepted`  
+Changzeng Fu, **Zelin Fu**, et al.
+*We propose a Grand Challenge benchmark for multimodal, personality-aware depression detection with full pipeline, dataset, and baseline design.*
+
+
+**[In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis](https://ieeexplore.ieee.org/document/10887764)**  
+`ICASSP 2025` `Accepted`  
+Changzeng Fu, **Zelin Fu**, et al. 
+*We design an in-context multitask fine-tuning framework with LoRA on VisualGLM, achieving 58.02% accuracy in eight-type TCM constitution classification.*
+
+
+**A Privacy-Constrained Speech Emotion Recognition Framework using Transformers and Fibonacci Position Embedding**  
+`ESWA` *(Under Review)*  
+Changzeng Fu, Qi Zhang, **Zelin Fu**, et al. 
+*This work explores Transformer-based speech emotion recognition with Fibonacci-based position encoding under privacy constraints.*
+
+---
+
+### 🏅 Scholarships and Awards
+
+**Scholarships**
+- National Scholarship – 1st in Major
+- Outstanding Student – Top 1.5%
+- Second-class Scholarship – Top 4.5%
+- Innovation and Entrepreneurship Scholarship
+
+**Competitions**
+- National First Prize – 19th National SmartCarRace for College Students
+- National Second Prize – 5th Global Campus AI Algorithm Elite Competition
+- National Second Prize – 2024 Mathematical Contest in Modeling (MCM)
+- National Third Prize – 22nd National RoboMaster Super Combat
+- National Third Prize – 17th Chinese Collegiate Computing Competition
+
+---
+
+### 🛠️ Skills
+
+- **Languages**: Python, C/C++, Java, Bash, Matlab, SQL  
+- **Frameworks**: PyTorch, TensorFlow, DeepSpeed, ROS, OpenCV  
+- **Tools**: Git, LaTeX, Docker  
+
+---
