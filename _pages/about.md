@@ -32,7 +32,7 @@ Changzeng Fu, **Zelin Fu**, Xinhe Kuang, Jiacheng Dong, Qi Zhang, Kaifeng Su, Yi
 `ICASSP 2025` `Accepted`  
 Changzeng Fu, **Zelin Fu**, Shaojun Yan, Xiaoyong Lyv, Yuliang Zhao  
 
-**A Privacy-Constrained Speech Emotion Recognition Framework using Transformers and Fibonacci Position Embedding**  
+**Tensor-to-JPEG FibFormer: A Privacy-Constrained Speech Emotion Recognition Framework using Transformers and Fibonacci Position Embedding**  
 `ESWA` `Under Review`  
 Changzeng Fu, Qi Zhang, **Zelin Fu**, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Shi
 
