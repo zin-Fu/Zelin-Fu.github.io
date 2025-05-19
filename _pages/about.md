@@ -11,7 +11,7 @@ Hi 👋, I am Zelin Fu, a third-year undergraduate majoring in Computer Science 
 
 <span style="color:#1E90FF;">I am actively seeking **PhD positions for Fall 2026** and **research internship opportunities**.</span>
 
-You can find my CV [here](../files/resume.pdf) *(Last updated: 2025/05/17)*
+You can find my CV [here](https://github.com/zin-Fu/Zelin-Fu.github.io/blob/master/files/resume.pdf) *(Last updated: 2025/05/17)*
 
 ## 🌟 News
 
