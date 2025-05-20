@@ -55,5 +55,6 @@ Changzeng Fu, Qi Zhang, **Zelin Fu**, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Sh
 
 - **Languages**: Python, C/C++, Java, Bash, Matlab, SQL  
 - **Frameworks**: PyTorch, TensorFlow, DeepSpeed, ROS, OpenCV  
-- **Tools**: Git, LaTeX, Docker  
+- **Tools**: Git, LaTeX, Docker
+- **English Proficiency**: TOEFL 95 (Received on May, 2025)
 
