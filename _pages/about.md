@@ -8,7 +8,7 @@ redirect_from:
 ---
 Hi 👋, I am Zelin Fu, a third-year undergraduate majoring in Computer Science at Northeastern University (NEU), advised by [Dr. Changzeng Fu](https://sstc.neuq.edu.cn/info/1131/2662.htm) at [HACI Lab, NEU](https://sstc.neuq.edu.cn/index.htm). My research interests include **Multimodal LLMs**, **Computer Vision**, and **Embodied AI**.
 
-`<span style="color:#1E90FF;">`I am actively seeking **PhD positions for Fall 2026** and **research internship opportunities**.
+`<span style="color:#1E90FF;">` I am actively seeking **PhD positions for Fall 2026** and **research internship opportunities**.
 
 You can find my CV [here](https://github.com/zin-Fu/Zelin-Fu.github.io/blob/master/files/resume.pdf) *(Last updated: 2025/05/17)*
 
@@ -25,14 +25,17 @@ You can find my CV [here](https://github.com/zin-Fu/Zelin-Fu.github.io/blob/mast
 
 **[The First MPDD Challenge: Multimodal Personality-aware Depression Detection](https://arxiv.org/abs/2505.10034)**
 `ACMMM 2025` `Accepted`
+
 Changzeng Fu, **Zelin Fu**, Xinhe Kuang, Jiacheng Dong, Qi Zhang, Kaifeng Su, Yikai Su, Wenbo Shi, Junfeng Yao, Yuliang Zhao, Shiqi Zhao, Jiadong Wang, Siyang Song, Chaoran Liu, Yuichiro Yoshikawa, Björn Schuller, Hiroshi Ishiguro
 
 **[In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis](https://ieeexplore.ieee.org/document/10887764)**
 `ICASSP 2025` `Accepted`
+
 Changzeng Fu, **Zelin Fu**, Shaojun Yan, Xiaoyong Lyv, Yuliang Zhao
 
 **Tensor-to-JPEG FibFormer: A Privacy-Constrained Speech Emotion Recognition Framework using Transformers and Fibonacci Position Embedding**
 `ESWA` `Under Review`
+
 Changzeng Fu, Qi Zhang, **Zelin Fu**, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Shi
 
 ## 🏅 Scholarships and Awards
