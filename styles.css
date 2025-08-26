@@ -21,6 +21,11 @@ body {
     contain: layout style paint;
 }
 
+html {
+    /* 避免 iOS Safari 自动放大文字导致布局异常 */
+    -webkit-text-size-adjust: 100%;
+}
+
 /* Top Navigation */
 .top-nav {
     background: #ffffff;
@@ -53,6 +58,7 @@ body {
 .top-nav-links {
     display: flex;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .top-nav-links a {
@@ -333,6 +339,8 @@ body {
     margin-bottom: 8px;
     font-size: 1.1rem;
     color: #495057;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 .publication-title a {
@@ -350,6 +358,8 @@ body {
     font-size: 0.9rem;
     color: #6c757d;
     margin-bottom: 5px;
+    word-break: break-word;
+    overflow-wrap: anywhere;
 }
 
 .publication-conference {
@@ -531,6 +541,15 @@ li {
         gap: 20px;
     }
     
+    body {
+        font-size: 15.5px;
+        line-height: 1.65;
+    }
+    
+    .top-nav {
+        padding: 12px 0;
+    }
+    
     .main-container {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -571,5 +590,26 @@ li {
     
     .skill-category {
         padding: 15px;
+    }
+
+    .main-content {
+        padding: 18px;
+    }
+
+    .section h2 {
+        font-size: 1.15rem;
+    }
+
+    .section h3 {
+        font-size: 1rem;
+    }
+
+    .publication-title {
+        font-size: 1rem;
+    }
+
+    li, .education-item, .news-item, .paper-authors, .paper-conference, .publication-authors, .publication-conference {
+        font-size: 0.95rem;
+        line-height: 1.6;
     }
 }
