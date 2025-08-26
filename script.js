@@ -16,7 +16,7 @@
 
 // 延迟加载非关键资源
 document.addEventListener('DOMContentLoaded', function() {
-    // 简单的ClustrMaps加载处理
+    // ClustrMaps加载处理
     setTimeout(function() {
         const clustrContainer = document.getElementById('clstr_globe');
         const loadingDiv = document.getElementById('visitor-map-loading');
@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     loadingDiv.style.display = 'none';
                 }, 300);
                 clustrContainer.style.opacity = '1';
-            }, 3000); // 给地图3秒时间加载
+            }, 2000); // 给地图2秒时间加载
         }
-    }, 1000);
+    }, 500);
     
     // 预加载其他图片
     const images = document.querySelectorAll('img[data-src]');
