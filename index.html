@@ -239,17 +239,10 @@
             <!-- Visitors（交互式地球） -->
             <div class="section" id="visitors">
                 <h2>Visitors</h2>
-                <!-- 最简动态版本：仅嵌入globe.js脚本；使用较小容器限制尺寸 -->
-                <div class="globe-wrap" style="width: 260px; height: 120px; margin: 0 auto; position: relative;">
+                <!-- 最简动态版本：仅嵌入globe.js脚本，不做额外逻辑 -->
+                <div style="max-width: 300px; margin: 0 auto;">
                     <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=pMQPVCuywFl4f0vP1BlwcL5h4C-nCnD7v50OwqoGyu4"></script>
                 </div>
-                <style>
-                    /* 让第三方脚本生成的canvas自适应我们设定的包裹容器尺寸 */
-                    #visitors .globe-wrap > canvas { width: 100% !important; height: 100% !important; display: block; }
-                    /* 某些实现会把canvas插在脚本后或再包一层，这里同时处理 */
-                    #mmvst_globe + canvas { width: 100% !important; height: 100% !important; display: block; }
-                    #mmvst_globe + * canvas { width: 100% !important; height: 100% !important; display: block; }
-                </style>
             </div>
         </div>
     </div>
