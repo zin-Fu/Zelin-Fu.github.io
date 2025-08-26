@@ -61,34 +61,7 @@
             </div>
             
             <div class="sidebar-visitors">
-                <div style="width: 150px; height: 150px; overflow: hidden; margin: 0 auto; position: relative;">
-                    <!-- 加载占位符 -->
-                    <div id="visitor-map-loading" style="width: 100%; height: 100%; background: #f8f9fa; border: 1px solid #e9ecef; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #6c757d; font-size: 0.8rem; position: absolute; top: 0; left: 0; z-index: 1;">
-                        <div style="width: 20px; height: 20px; border: 2px solid #e9ecef; border-top: 2px solid #495057; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 8px;"></div>
-                        <div>Loading Map...</div>
-                    </div>
-                    
-                    <!-- 访客地图模块：包含加载占位符、地图承载容器、第三方脚本 -->
-                    <!-- 外层容器：控制可视区域大小与定位（150x150 可按需调整） -->
-                    <!-- 注意：缩放请调整外层容器尺寸，不要对脚本或挂载容器本身进行 transform 缩放，以免影响第三方渲染逻辑 -->
-                    <div id="clstr_globe" style="width: 150px; height: 150px; overflow: hidden; position: relative; z-index: 2;"></div>
-
-                    <!-- 第三方脚本：在上方 #clstr_globe 内挂载 3D 地球可视化
-                         提示：
-                         1) 使用 https 以避免混合内容（Mixed Content）导致加载失败
-                         2) 若安装了拦截脚本/广告的扩展（如 AdBlock/NoScript），可能会阻止脚本执行
-                         3) 校园/公司网络可能限制外部域名访问，必要时需代理或更换网络环境 -->
-                    <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=pMQPVCuywFl4f0vP1BlwcL5h4C-nCnD7v50OwqoGyu4"></script>
-
-                    <!-- 本地样式：仅用于加载占位符的转圈动画
-                         说明：占位符位于外层容器上方，待第三方脚本渲染完成后由 script.js 渐隐 -->
-                    <style>
-                        @keyframes spin {
-                            0% { transform: rotate(0deg); }
-                            100% { transform: rotate(360deg); }
-                        }
-                    </style>
-                </div>
+                <!-- 已移除侧栏小尺寸访客地图，改放置到主内容底部的宽屏区域 -->
             </div>
         </div>
 
@@ -260,6 +233,24 @@
                 <h2>Misc</h2>
                 <div class="misc-grid">
                     <p>Beyond academics, I have a passion for music and sports. I play <strong>percussion</strong> and have won the <strong>World 3rd Prize</strong> in competitions. I also play <strong>piano</strong> and have reached <strong>Level 10</strong>. In sports, I am a <strong>varsity member</strong> in <strong>badminton</strong> and have been named <strong>MVP</strong> in the <strong>CS Department Basketball Tournament</strong>.</p>
+                </div>
+            </div>
+
+            <!-- Visitors（交互式地球） -->
+            <div class="section" id="visitors">
+                <h2>Visitors</h2>
+                <div id="visitor-map-wrapper" style="width: 100%; max-width: 900px; height: 360px; margin: 0 auto; position: relative;">
+                    <!-- 加载占位符：脚本渲染成功后由 script.js 隐藏 -->
+                    <div id="visitor-map-loading" style="width: 100%; height: 100%; background: #f8f9fa; border: 1px solid #e9ecef; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #6c757d; font-size: 0.9rem; position: absolute; top: 0; left: 0; z-index: 1;">
+                        <div style="width: 20px; height: 20px; border: 2px solid #e9ecef; border-top: 2px solid #495057; border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 8px;"></div>
+                        <div>Loading Map...</div>
+                    </div>
+                    
+                    <!-- 地球容器：第三方脚本将在此挂载 canvas/iframe -->
+                    <div id="clstr_globe" style="width: 100%; height: 100%; position: relative; z-index: 2;"></div>
+                    
+                    <!-- 第三方脚本（交互式）：mapmyvisitors 可视化地球 -->
+                    <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=pMQPVCuywFl4f0vP1BlwcL5h4C-nCnD7v50OwqoGyu4"></script>
                 </div>
             </div>
         </div>
