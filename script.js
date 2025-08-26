@@ -17,67 +17,84 @@
 // 延迟加载非关键资源
 document.addEventListener('DOMContentLoaded', function() {
     // 访客地图加载监测与占位符处理
-    const clustrContainer = document.getElementById('clstr_globe');
+    const container = document.getElementById('clstr_globe');
     const loadingDiv = document.getElementById('visitor-map-loading');
+    const embedScript = document.getElementById('mmvst_globe');
 
-    if (clustrContainer && loadingDiv) {
+    if (container && loadingDiv) {
         // 初始隐藏地图容器，待渲染后再显示
-        clustrContainer.style.opacity = '0';
+        container.style.opacity = '0';
 
-        // 使用 MutationObserver 监听容器内是否出现子节点（canvas/iframe/svg 等）
         let rendered = false;
-        const observer = new MutationObserver(function(mutations) {
-            if (clustrContainer.childNodes && clustrContainer.childNodes.length > 0) {
-                rendered = true;
-                // 渲染成功：淡出loading，淡入地图
-                loadingDiv.style.opacity = '0';
-                setTimeout(function() { loadingDiv.style.display = 'none'; }, 300);
-                clustrContainer.style.opacity = '1';
-                observer.disconnect();
+        function markRendered() {
+            if (rendered) return;
+            rendered = true;
+            loadingDiv.style.opacity = '0';
+            setTimeout(function(){ loadingDiv.style.display = 'none'; }, 300);
+            container.style.opacity = '1';
+        }
+
+        // 1) 监听容器内部
+        const containerObserver = new MutationObserver(function() {
+            const hasChild = container.querySelector('canvas,iframe,svg');
+            if (hasChild) {
+                markRendered();
+                containerObserver.disconnect();
             }
         });
-        observer.observe(clustrContainer, { childList: true, subtree: true });
+        containerObserver.observe(container, { childList: true, subtree: true });
 
-        // 双保险：定时轮询（部分脚本可能一次性替换innerHTML，错过Mutation）
-        const pollStart = Date.now();
+        // 2) 监听脚本相邻（部分第三方会在脚本后插入canvas到兄弟节点）
+        if (embedScript) {
+            const parent = embedScript.parentNode || document.body;
+            const scriptObserver = new MutationObserver(function() {
+                const siblingCanvas = document.querySelector('#mmvst_globe + canvas, #mmvst_globe + * canvas');
+                if (siblingCanvas) {
+                    // 如果画布被插在脚本后面，把它移到容器内以便样式控制
+                    if (!container.contains(siblingCanvas)) {
+                        container.appendChild(siblingCanvas);
+                    }
+                    markRendered();
+                    scriptObserver.disconnect();
+                }
+            });
+            scriptObserver.observe(parent, { childList: true, subtree: true });
+        }
+
+        // 3) 轮询兜底 + 超时静态图后备
+        const start = Date.now();
         const pollTimer = setInterval(function() {
-            if (clustrContainer.childNodes && clustrContainer.childNodes.length > 0) {
-                rendered = true;
-                loadingDiv.style.opacity = '0';
-                setTimeout(function() { loadingDiv.style.display = 'none'; }, 300);
-                clustrContainer.style.opacity = '1';
+            const ok = container.querySelector('canvas,iframe,svg') || document.querySelector('#mmvst_globe + canvas, #mmvst_globe + * canvas');
+            if (ok) {
+                if (ok.parentNode && ok.parentNode !== container) {
+                    container.appendChild(ok);
+                }
+                markRendered();
                 clearInterval(pollTimer);
             }
-            // 超时10秒仍未渲染，给出错误提示
-            if (Date.now() - pollStart > 10000 && !rendered) {
+            if (Date.now() - start > 10000 && !rendered) {
                 clearInterval(pollTimer);
-                loadingDiv.innerHTML = '<div style="color:#dc3545; text-align:center; font-size:12px;">Map Unavailable<br/>Check network/ad-block</div>';
-                loadingDiv.style.opacity = '1';
+                // 隐藏loading并切换为静态图片后备（ClustrMaps静态图）
+                loadingDiv.style.opacity = '0';
+                setTimeout(function(){ loadingDiv.style.display = 'none'; }, 300);
+                container.style.opacity = '1';
+                container.innerHTML = '<img alt="Visitors Map" style="width:100%;height:100%;object-fit:cover;border-radius:4px;" src="https://clustrmaps.com/map_v2.png?d=JDmE01DZdGkXQ0lEhwzVqn7jQF83J8xE415Ecdxcg4U&cl=ffffff&w=150&t=n" />';
             }
         }, 300);
     }
 
     // 预加载其他图片
     const images = document.querySelectorAll('img[data-src]');
-    images.forEach(img => {
-        if (img.dataset.src) {
-            img.src = img.dataset.src;
-        }
-    });
+    images.forEach(function(img){ if (img.dataset.src) img.src = img.dataset.src; });
 });
 
 // 优化的平滑滚动
 document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor){
+        anchor.addEventListener('click', function(e){
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
-            if (target) {
-                target.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
-            }
+            if (target) target.scrollIntoView({ behavior:'smooth', block:'start' });
         });
     });
 });
