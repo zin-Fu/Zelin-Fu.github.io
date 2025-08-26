@@ -1,42 +1,75 @@
+# Zelin Fu - Academic Personal Website
 
-# Academic Pages
+## 📁 文件结构
 
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+```
+new-webpage/
+├── main.html          # 主HTML文件
+├── styles.css         # 样式文件
+├── script.js          # JavaScript功能文件
+├── images/            # 图片资源目录
+│   └── zelin.png      # 个人头像
+├── paper/             # 论文图片目录
+│   ├── ACMMM-2025.png # ACM MM 2025论文图片
+│   └── ICASSP-2025.png # ICASSP 2025论文图片
+└── README.md          # 说明文档
+```
 
-Academic Pages is a Github Pages template for academic websites.
+## 🎨 设计特点
 
+### 视觉设计
+- **配色方案**: 白灰配色 (#fafafa 背景，#2c3e50 文字)
+- **字体**: Times New Roman (学术风格)
+- **布局**: 左侧边栏 + 主内容区的双栏布局
+- **响应式**: 移动端自适应
 
-# Getting Started
+### 功能特性
+- **导航栏**: 固定在顶部的导航菜单
+- **侧边栏**: 包含个人信息、联系方式、访问统计
+- **平滑滚动**: 页面内导航的平滑滚动效果
+- **图片特效**: 论文图片的悬停放大效果
+- **性能优化**: 异步加载、图片预加载等
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## 📱 响应式设计
 
-See more info at https://academicpages.github.io/
+- **桌面端**: 双栏布局 (250px + 1fr)
+- **平板端**: 自适应布局
+- **移动端**: 单栏布局，侧边栏移至顶部
 
-## Running Locally
+## 🚀 性能优化
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+- **CSS优化**: 使用 `will-change` 和 `contain` 属性
+- **图片优化**: 关键图片预加载，非关键图片延迟加载
+- **脚本优化**: 异步加载ClustrMaps，DOMContentLoaded事件处理
+- **渲染优化**: 硬件加速、字体平滑等
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+## 🔧 技术栈
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+- **HTML5**: 语义化标签，无障碍访问
+- **CSS3**: Grid布局，Flexbox，CSS变量
+- **JavaScript**: ES6+，模块化设计
+- **第三方**: ClustrMaps访问统计
 
-# Maintenance 
+## 📝 维护说明
 
-Bug reports and feature requests to the template  should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+### 添加新论文
+1. 在 `paper/` 目录添加论文图片
+2. 在 `main.html` 的 Publications 部分添加新条目
+3. 更新相应的链接和描述
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+### 修改样式
+- 主要样式在 `styles.css` 文件中
+- 响应式样式在文件末尾的 `@media` 查询中
+- 图片特效通过内联样式实现
 
-## Bugfixes and enhancements
+### 更新内容
+- 个人信息在 `main.html` 的相应部分
+- 导航链接在顶部导航栏中
+- 联系方式在侧边栏中
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+## 🌟 特色功能
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+1. **学术风格**: 严谨的排版，适合学术展示
+2. **交互体验**: 平滑的动画效果和悬停反馈
+3. **信息架构**: 清晰的内容组织和导航结构
+4. **可维护性**: 模块化的代码结构，易于更新和维护
