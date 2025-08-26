@@ -166,21 +166,6 @@ body {
     margin-top: 30px;
 }
 
-.sidebar-visitors #clstr_globe {
-    width: 100% !important;
-    height: 100% !important;
-    transform: scale(0.6) !important;
-    transform-origin: 0 0 !important;
-}
-
-.sidebar-visitors #clstr_globe iframe {
-    width: 100% !important;
-    height: 100% !important;
-    border: none !important;
-    transform: scale(0.6) !important;
-    transform-origin: 0 0 !important;
-}
-
 /* Header */
 .header {
     margin-bottom: 40px;
