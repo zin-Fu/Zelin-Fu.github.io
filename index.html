@@ -68,10 +68,20 @@
                         <div>Loading Map...</div>
                     </div>
                     
-                    <!-- ClustrMaps容器 -->
+                    <!-- 访客地图模块：包含加载占位符、地图承载容器、第三方脚本 -->
+                    <!-- 外层容器：控制可视区域大小与定位（150x150 可按需调整） -->
+                    <!-- 注意：缩放请调整外层容器尺寸，不要对脚本或挂载容器本身进行 transform 缩放，以免影响第三方渲染逻辑 -->
                     <div id="clstr_globe" style="width: 150px; height: 150px; overflow: hidden; position: relative; z-index: 2;"></div>
-                    <script type="text/javascript" src="https://clustrmaps.com/globe.js?d=JDmE01DZdGkXQ0lEhwzVqn7jQF83J8xE415Ecdxcg4U"></script>
-                    
+
+                    <!-- 第三方脚本：在上方 #clstr_globe 内挂载 3D 地球可视化
+                         提示：
+                         1) 使用 https 以避免混合内容（Mixed Content）导致加载失败
+                         2) 若安装了拦截脚本/广告的扩展（如 AdBlock/NoScript），可能会阻止脚本执行
+                         3) 校园/公司网络可能限制外部域名访问，必要时需代理或更换网络环境 -->
+                    <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=pMQPVCuywFl4f0vP1BlwcL5h4C-nCnD7v50OwqoGyu4"></script>
+
+                    <!-- 本地样式：仅用于加载占位符的转圈动画
+                         说明：占位符位于外层容器上方，待第三方脚本渲染完成后由 script.js 渐隐 -->
                     <style>
                         @keyframes spin {
                             0% { transform: rotate(0deg); }
