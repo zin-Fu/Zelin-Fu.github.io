@@ -429,6 +429,104 @@ li {
     color: #6c757d;
 }
 
+/* Education timeline/cards */
+.education-timeline {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    position: relative;
+    padding-left: 12px;
+}
+
+.education-timeline::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, #e9ecef, #f1f3f5);
+    border-radius: 1px;
+}
+
+.education-card {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 16px 18px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    position: relative;
+    transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+    border-color: #dee2e6;
+}
+
+.education-card-header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 12px;
+}
+
+.education-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 50%;
+    position: relative;
+}
+
+.education-icon::after {
+    content: '';
+    position: absolute;
+    left: -18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    border: 2px solid #a5c8ec;
+    border-radius: 50%;
+}
+
+.education-meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-degree {
+    font-weight: 700;
+    color: #495057;
+}
+
+.education-school {
+    font-size: 0.92rem;
+    color: #6c757d;
+}
+
+.education-time {
+    font-size: 0.9rem;
+    color: #868e96;
+    white-space: nowrap;
+}
+
+.education-card-body {
+    margin-top: 8px;
+}
+
+.education-extra {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
 /* Skills */
 .skills-grid {
     display: grid;
@@ -611,5 +709,15 @@ li {
     li, .education-item, .news-item, .paper-authors, .paper-conference, .publication-authors, .publication-conference {
         font-size: 0.95rem;
         line-height: 1.6;
+    }
+
+    /* Education mobile adjustments */
+    .education-card-header {
+        grid-template-columns: auto 1fr;
+        row-gap: 6px;
+    }
+    .education-time {
+        grid-column: 1 / -1;
+        justify-self: start;
     }
 }
