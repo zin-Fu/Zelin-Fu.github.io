@@ -59,8 +59,9 @@ html {
 .top-nav-links {
     display: flex;
     gap: 20px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }
 
 .top-nav-links a {
@@ -646,14 +647,46 @@ li {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-    .top-nav-container {
-        flex-direction: column;
+@media (max-width: 1024px) {
+    .top-nav-links {
         gap: 15px;
     }
     
+    .top-nav-links a {
+        font-size: 0.95rem;
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-nav {
+        padding: 15px 0;
+        margin-bottom: 20px;
+    }
+    
+    .top-nav-container {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 15px;
+    }
+    
+    .top-nav-brand {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
     .top-nav-links {
-        gap: 20px;
+        gap: 8px;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    
+    .top-nav-links a {
+        font-size: 0.85rem;
+        padding: 6px 8px;
+        white-space: nowrap;
+        min-width: fit-content;
     }
     
     body {
@@ -736,5 +769,72 @@ li {
     .education-time {
         grid-column: 1 / -1;
         justify-self: start;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .top-nav {
+        padding: 10px 0;
+    }
+    
+    .top-nav-container {
+        padding: 0 10px;
+        gap: 8px;
+    }
+    
+    .top-nav-brand {
+        font-size: 1.1rem;
+    }
+    
+    .top-nav-links {
+        gap: 4px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .top-nav-links a {
+        font-size: 0.8rem;
+        padding: 4px 6px;
+        white-space: nowrap;
+        min-width: fit-content;
+    }
+    
+    .main-container {
+        padding: 0 10px;
+        gap: 20px;
+    }
+    
+    .main-content {
+        padding: 20px;
+    }
+    
+    .sidebar {
+        padding: 20px;
+    }
+    
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Very small screens (320px and below) */
+@media (max-width: 320px) {
+    .top-nav-container {
+        padding: 0 5px;
+        gap: 5px;
+    }
+    
+    .top-nav-brand {
+        font-size: 1rem;
+    }
+    
+    .top-nav-links {
+        gap: 2px;
+    }
+    
+    .top-nav-links a {
+        font-size: 0.75rem;
+        padding: 3px 4px;
     }
 }
