@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-    <title>Zelin Fu</title>
+    <title>Zelin Fu — Personal Homepage</title>
+    <meta name="description" content="Zelin Fu's academic homepage. Research in Multimodal LLMs, Generative AI, and AI for Science.">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Top Navigation -->
     <nav class="top-nav">
         <div class="top-nav-container">
             <a href="#" class="top-nav-brand">Zelin Fu（傅泽林）</a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
             <div class="top-nav-links">
                 <a href="#about">About</a>
                 <a href="#news">News</a>
@@ -25,8 +28,7 @@
     </nav>
 
     <div class="main-container">
-        <!-- Sidebar -->
-        <div class="sidebar">
+        <aside class="sidebar">
             <div class="sidebar-profile">
                 <img src="images/zelin.png" alt="Zelin Fu">
                 <div class="sidebar-name">Zelin Fu</div>
@@ -35,101 +37,93 @@
             
             <div class="sidebar-contact">
                 <div class="contact-item">
-                    <span class="contact-icon">📧</span>
+                    <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
                     <a href="mailto:202219117@stu.neu.edu.cn">Email</a>
                 </div>
                 <div class="contact-item">
-                    <span class="contact-icon">🎓</span>
-                    <a href="https://scholar.google.co.in/citations?user=tF7h9oEAAAAJ">Google Scholar</a>
+                    <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/></svg>
+                    <a href="https://scholar.google.co.in/citations?user=tF7h9oEAAAAJ" target="_blank">Google Scholar</a>
                 </div>
                 <div class="contact-item">
-                    <span class="contact-icon">🐙</span>
-                    <a href="https://github.com/zin-Fu">Github</a>
+                    <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                    <a href="https://github.com/zin-Fu" target="_blank">GitHub</a>
                 </div>
                 <div class="contact-item">
-                    <span class="contact-icon">📝</span>
-                    <a href="https://www.zhihu.com/people/zinn-30-22/answers">Zhihu</a>
+                    <svg class="contact-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+                    <a href="https://www.zhihu.com/people/zinn-30-22/answers" target="_blank">Zhihu</a>
                 </div>
             </div>
             
             <div class="sidebar-visitors">
-                <!-- Visitors Mini Map in Sidebar -->
                 <div style="width: 120px; margin: 0 auto;">
                     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=JDmE01DZdGkXQ0lEhwzVqn7jQF83J8xE415Ecdxcg4U"></script>
                 </div>
             </div>
-        </div>
+        </aside>
 
-        <div class="main-content">
-            <!-- About Me -->
+        <main class="main-content">
             <div class="section" id="about">
                 <h2>About Me</h2>
                 <p>Hi 👋, I am Zelin Fu, a senior undergraduate majoring in Computer Science at Northeastern University (NEU), where I am advised by 
-                    <a href="https://sstc.neuq.edu.cn/info/1131/2662.htm" style="color: #3182ce; text-decoration: none;">Dr. Changzeng Fu</a> 
-                    at the <a href="https://sstc.neuq.edu.cn/index.htm" style="color: #3182ce; text-decoration: none;">HACI Lab</a>.
+                    <a href="https://sstc.neuq.edu.cn/info/1131/2662.htm">Dr. Changzeng Fu</a> 
+                    at the <a href="https://sstc.neuq.edu.cn/index.htm">HACI Lab</a>.
                     I will soon begin my MPhil studies at the 
-                    <a href="https://english.siat.ac.cn/" style="color: #3182ce; text-decoration: none;">Shenzhen Institutes of Advanced Technology (SIAT), UCAS</a>.
+                    <a href="https://english.siat.ac.cn/">Shenzhen Institutes of Advanced Technology (SIAT), UCAS</a>.
                     Currently, I am a visiting student at 
-                    <a href="https://www.suat-sz.edu.cn/" style="color: #3182ce; text-decoration: none;">Shenzhen University of Advanced Technology (SUAT)</a>, 
-                    working with <a href="https://fjiangai.github.io/" style="color: #3182ce; text-decoration: none;">Prof. Feng Jiang</a>.
+                    <a href="https://www.suat-sz.edu.cn/">Shenzhen University of Advanced Technology (SUAT)</a>, 
+                    working with <a href="https://fjiangai.github.io/">Prof. Feng Jiang</a>.
                 </p>
-                
-            
+
                 <p>My research interests include <strong>Multimodal Large Language Models</strong>, <strong>Generative AI</strong>, and <strong>AI for Science</strong>. 
-                    <!-- I am also passionate about building intelligent agents and robots for automated scientific discovery. -->
                     I am currently exploring Persona-aware Large Language Models (Persona LLMs).
                 </p>
-                
-            
+
                 <p>You can find my CV 
-                    <a href="./resume.pdf" style="color: #3182ce; text-decoration: none;">here</a> 
+                    <a href="./resume.pdf">here</a> 
                     <em>(Last updated: 2025/05/17)</em>.
                 </p>
             </div>
-            
-            
 
-            <!-- News -->
             <div class="section" id="news">
                 <h2>News</h2>
                 <ul>
-                    <li><strong>2025.11:</strong> 🎉🎉 Starting my internship in <strong>Ant Group</strong>!</li>
-                    <li><strong>2025.09:</strong> 🎉🎉 Admitted to the <strong>University of Chinese Academy of Sciences</strong> as an incoming MPhil student!</li>
-                    <li><strong>2025.02:</strong> 🎉🎉 One paper was accepted by <strong>ACM MM 2025</strong>!</li>
-                    <li><strong>2024.12:</strong> 🎉🎉 One paper was accepted by <strong>ICASSP 2025</strong>!</li>
+                    <li><strong>2025.11</strong> 🎉 Starting my internship at <strong>Ant Group</strong>!</li>
+                    <li><strong>2025.09</strong> 🎉 Admitted to the <strong>University of Chinese Academy of Sciences</strong> as an incoming MPhil student!</li>
+                    <li><strong>2025.02</strong> 🎉 One paper was accepted by <strong>ACM MM 2025</strong>!</li>
+                    <li><strong>2024.12</strong> 🎉 One paper was accepted by <strong>ICASSP 2025</strong>!</li>
                 </ul>
             </div>
 
-            <!-- Education -->
             <div class="section" id="education">
                 <h2>Education</h2>
                 <div class="education-timeline">
                     <div class="education-card">
                         <div class="education-card-header">
-                            <div class="education-icon">🎓</div>
-                            <div class="education-meta">
-                                <div class="education-school"><strong>Northeastern University (NEU)</strong></div>
-                                <div class="education-degree">B.S. in Computer Science - rank 7/118</div>
+                            <div class="education-icon">
+                                <img src="images/siat.png" alt="SIAT Logo" style="width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #e5e7eb;background:#fff;">
                             </div>
-                            <div class="education-time">2022 – 2026 (Expected)</div>
+                            <div class="education-meta">
+                                <div class="education-school"><strong>University of Chinese Academy of Sciences</strong></div>
+                                <div class="education-degree">MPhil in Computer Science</div>
+                            </div>
+                            <div class="education-time">2026 – 2029 (Expected)</div>
                         </div>
-                        
                     </div>
-
                     <div class="education-card">
                         <div class="education-card-header">
-                            <div class="education-icon">🏫</div>
-                            <div class="education-meta">
-                                <div class="education-school"><strong>Xiamen No.1 High School of Fujian</strong></div>
+                            <div class="education-icon">
+                                <img src="images/neu.png" alt="NEU Logo" style="width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid #e5e7eb;background:#fff;">
                             </div>
-                            <div class="education-time">2019 – 2022</div>
+                            <div class="education-meta">
+                                <div class="education-school"><strong>Northeastern University</strong></div>
+                                <div class="education-degree">B.S. in Computer Science — Rank 7/118</div>
+                            </div>
+                            <div class="education-time">2022 – 2026</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-
-            <!-- Publications -->
             <div class="section" id="publications">
                 <h2>Publications</h2>
                 
@@ -139,17 +133,18 @@
                             <div class="publication-title">
                                 The First MPDD Challenge: Multimodal Personality-aware Depression Detection
                             </div>
-                            <div class="publication-authors">Changzeng Fu, <strong>Zelin Fu</strong>, Xinhe Kuang, Jiacheng Dong, Qi Zhang, Kaifeng Su, Yikai Su, Wenbo Shi, Junfeng Yao, Yuliang Zhao, Shiqi Zhao, Jiadong Wang, Siyang Song, Chaoran Liu, Yuichiro Yoshikawa, Björn Schuller, Hiroshi Ishiguro</div>
+                            <div class="publication-authors">
+                                Changzeng Fu, <u>Zelin Fu</u>, Xinhe Kuang, Jiacheng Dong, Qi Zhang, Kaifeng Su, Yikai Su, Wenbo Shi, Junfeng Yao, Yuliang Zhao, Shiqi Zhao, Jiadong Wang, Siyang Song, Chaoran Liu, Yuichiro Yoshikawa, Björn Schuller, Hiroshi Ishiguro
+                            </div>
                             <div class="publication-meta">
-                                <div class="publication-conference acm-mm">ACM MM 2025</div>
-                                <div class="publication-links">
-                                    <a href="https://dl.acm.org/doi/pdf/10.1145/3746027.3762020">Paper</a>
-                                    <a href="https://github.com/hacilab/MPDD">Code</a>
-                                </div>
+                                <span class="publication-venue">ACM MM 2025</span>
+                                <span class="publication-sep">|</span>
+                                <a href="https://dl.acm.org/doi/pdf/10.1145/3746027.3762020" class="pub-link" target="_blank">Paper</a>
+                                <a href="https://github.com/hacilab/MPDD" class="pub-link" target="_blank">Code</a>
                             </div>
                         </div>
                         <div class="publication-image">
-                            <img src="paper/ACMMM-2025.png" alt="ACMMM 2025 Paper" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.2)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0, 0, 0, 0.15)'">
+                            <img src="paper/ACMMM-2025.png" alt="ACM MM 2025 Paper">
                         </div>
                     </div>
                 </div>
@@ -160,16 +155,17 @@
                             <div class="publication-title">
                                 In-Context Multitask Learning for Few-shot Fine-tuning of Large Language Models in Traditional Chinese Medicine Tongue Diagnosis
                             </div>
-                            <div class="publication-authors">Changzeng Fu, <strong>Zelin Fu</strong>, Shaojun Yan, Xiaoyong Lyv, Yuliang Zhao</div>
+                            <div class="publication-authors">
+                                Changzeng Fu, <u>Zelin Fu</u>, Shaojun Yan, Xiaoyong Lyv, Yuliang Zhao
+                            </div>
                             <div class="publication-meta">
-                                <div class="publication-conference icassp">ICASSP 2025</div>
-                                <div class="publication-links">
-                                    <a href="https://ieeexplore.ieee.org/document/10887764">Paper</a>
-                                </div>
+                                <span class="publication-venue">ICASSP 2025</span>
+                                <span class="publication-sep">|</span>
+                                <a href="https://ieeexplore.ieee.org/document/10887764" class="pub-link" target="_blank">Paper</a>
                             </div>
                         </div>
                         <div class="publication-image">
-                            <img src="paper/ICASSP-2025.png" alt="ICASSP 2025 Paper" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); transition: all 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.02)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.2)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0, 0, 0, 0.15)'">
+                            <img src="paper/ICASSP-2025.png" alt="ICASSP 2025 Paper">
                         </div>
                     </div>
                 </div>
@@ -180,44 +176,41 @@
                             <div class="publication-title">
                                 Tensor-to-JPEG FibFormer: A Privacy-Constrained Speech Emotion Recognition Framework using Transformers and Fibonacci Position Embedding
                             </div>
-                            <div class="publication-authors">Changzeng Fu, Qi Zhang, <strong>Zelin Fu</strong>, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Shi</div>
-                            <div class="publication-conference expert-systems">Expert Systems With Applications</div>
-                            <div class="publication-links">
-                                <!-- <a href="#">PDF</a> -->
+                            <div class="publication-authors">
+                                Changzeng Fu, Qi Zhang, <u>Zelin Fu</u>, Fengkui Qian, Zirui Qiu, Ning Lu, Wenbo Shi
+                            </div>
+                            <div class="publication-meta">
+                                <span class="publication-venue">Expert Systems With Applications</span>
                             </div>
                         </div>
                         <div class="publication-image">
-                            <div class="image-placeholder">
-                                TBC
-                            </div>
+                            <div class="image-placeholder">TBC</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Awards -->
             <div class="section" id="awards">
                 <h2>Awards & Scholarships</h2>
                 
                 <h3>Scholarships</h3>
                 <ul>
-                    <li><strong>National Scholarship</strong> – Top 1 in Major</li>
-                    <li>Outstanding Student – Top 1.5% in Major</li>
-                    <li>Second-class Scholarship – Top 4.5% in Major</li>
+                    <li><strong>National Scholarship</strong> — Top 1 in Major</li>
+                    <li>Outstanding Student — Top 1.5% in Major</li>
+                    <li>Second-class Scholarship — Top 4.5% in Major</li>
                     <li>Innovation and Entrepreneurship Scholarship</li>
                 </ul>
 
                 <h3>Competitions</h3>
                 <ul>
-                    <li><strong>National First Prize</strong> – 19th National SmartCarRace for College Students</li>
-                    <li>National Second Prize – 5th Global Campus AI Algorithm Elite Competition</li>
-                    <li>National Second Prize – 2024 Mathematical Contest in Modeling (MCM)</li>
-                    <li>National Third Prize – 22nd National RoboMaster Super Combat</li>
-                    <li>National Third Prize – 17th Chinese Collegiate Computing Competition</li>
+                    <li><strong>National First Prize</strong> — 19th National SmartCarRace for College Students</li>
+                    <li>National Second Prize — 5th Global Campus AI Algorithm Elite Competition</li>
+                    <li>National Second Prize — 2024 Mathematical Contest in Modeling (MCM)</li>
+                    <li>National Third Prize — 22nd National RoboMaster Super Combat</li>
+                    <li>National Third Prize — 17th Chinese Collegiate Computing Competition</li>
                 </ul>
             </div>
 
-            <!-- Academic Service -->
             <div class="section" id="service">
                 <h2>Academic Service</h2>
                 <ul>
@@ -225,59 +218,57 @@
                 </ul>
             </div>
 
-            <!-- Skills -->
             <div class="section" id="skills">
                 <h2>Skills</h2>
                 <div class="skills-grid">
                     <div class="skill-category">
                         <h4>Programming Languages</h4>
-                        <ul>
-                            <li>Python</li>
-                            <li>C/C++</li>
-                            <li>Java</li>
-                            <li>Bash</li>
-                            <li>Matlab</li>
-                            <li>SQL</li>
-                        </ul>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">C/C++</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Bash</span>
+                            <span class="skill-tag">Matlab</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
                     </div>
                     <div class="skill-category">
                         <h4>Frameworks & Libraries</h4>
-                        <ul>
-                            <li>PyTorch</li>
-                            <li>TensorFlow</li>
-                            <li>DeepSpeed</li>
-                            <li>ROS</li>
-                            <li>OpenCV</li>
-                        </ul>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">DeepSpeed</span>
+                            <span class="skill-tag">ROS</span>
+                            <span class="skill-tag">OpenCV</span>
+                        </div>
                     </div>
                     <div class="skill-category">
                         <h4>Tools</h4>
-                        <ul>
-                            <li>Git</li>
-                            <li>LaTeX</li>
-                            <li>Docker</li>
-                        </ul>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">LaTeX</span>
+                            <span class="skill-tag">Docker</span>
+                        </div>
                     </div>
                     <div class="skill-category">
                         <h4>Language Proficiency</h4>
-                        <ul>
-                            <li>TOEFL 95 (May 2025)</li>
-                        </ul>
+                        <div class="skill-tags">
+                            <span class="skill-tag">TOEFL 95 (May 2025)</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Misc -->
             <div class="section" id="misc">
                 <h2>Misc</h2>
-                <div class="misc-grid">
-                    <p>Beyond academics, I have a passion for music and sports. I play <strong>percussion</strong> and have won the <strong>World 3rd Prize</strong> in competitions. I also play <strong>piano</strong> and have reached <strong>Level 10</strong>. In sports, I am a <strong>varsity member</strong> in <strong>badminton</strong> and have been named <strong>MVP</strong> in the <strong>CS Department Basketball Tournament</strong>.</p>
-                </div>
+                <p>Beyond academics, I have a passion for music and sports. I play <strong>percussion</strong> and have won the <strong>World 3rd Prize</strong> in competitions. I also play <strong>piano</strong> and have reached <strong>Level 10</strong>. In sports, I am a <strong>varsity member</strong> in <strong>badminton</strong> and have been named <strong>MVP</strong> in the <strong>CS Department Basketball Tournament</strong>.</p>
             </div>
-
-            <!-- Visitors moved to sidebar -->
-        </div>
+        </main>
     </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Zelin Fu. Last updated: Feb 2026.</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
