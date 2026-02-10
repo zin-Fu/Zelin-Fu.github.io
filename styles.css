@@ -177,9 +177,13 @@ a:hover {
 }
 
 .contact-svg {
-    width: 16px;
-    height: 16px;
-    color: var(--muted);
+    width: 20px;
+    height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    color: #6b7280;
+    flex: 0 0 20px;
+    display: block;
 }
 
 .sidebar-visitors {
@@ -348,17 +352,19 @@ a:hover {
     flex-wrap: wrap;
     gap: 10px;
     align-items: center;
-    font-size: 0.89rem;
-    color: #2346a0;
+    font-size: 0.88rem;
+    color: #6b7280;
 }
 
 .publication-venue {
+    display: inline-block;
     background: var(--accent-soft);
     color: #2346a0;
-    padding: 4px 10px;
+    padding: 3px 10px;
     border-radius: 999px;
     font-weight: 600;
-    font-size: 0.87rem;
+    font-size: 0.84rem;
+    line-height: 1.2;
 }
 
 .publication-sep {
