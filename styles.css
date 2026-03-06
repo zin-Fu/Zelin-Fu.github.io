@@ -263,6 +263,32 @@ a:hover {
     font-size: 0.98rem;
 }
 
+.about-highlight {
+    margin-top: 4px;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 26px;
+}
+
+.about-corner-logo {
+    position: absolute;
+    left: -2px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.about-corner-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
 /* News */
 
 /* Education */
@@ -394,6 +420,83 @@ a:hover {
     background: #fafafa;
 }
 
+/* Internships */
+.internship-list {
+    display: grid;
+    gap: 16px;
+}
+
+.internship-card {
+    padding: 12px 0;
+    background: transparent;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 96px;
+    gap: 18px;
+    align-items: center;
+}
+
+.internship-content {
+    min-width: 0;
+}
+
+.internship-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 6px;
+}
+
+.internship-org {
+    color: #222;
+    font-size: 1rem;
+}
+
+.internship-time {
+    color: #6b7280;
+    font-size: 0.88rem;
+    white-space: nowrap;
+}
+
+.internship-role {
+    color: #2346a0;
+    font-size: 0.97rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.internship-meta {
+    color: #4b5563;
+    font-size: 0.92rem;
+    line-height: 1.6;
+}
+
+.internship-logo-frame {
+    width: 96px;
+    height: 96px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.internship-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.internship-logo-placeholder {
+    display: none;
+    width: 100%;
+    height: 100%;
+    place-items: center;
+    color: #9ca3af;
+    font-size: 0.84rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #f8fafc, #eef2ff);
+}
+
 /* Skills */
 .skills-grid {
     display: grid;
@@ -493,6 +596,20 @@ li {
 
     .skills-grid {
         grid-template-columns: 1fr;
+    }
+
+    .internship-card {
+        grid-template-columns: 1fr;
+    }
+
+    .internship-header {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .internship-logo-frame {
+        width: 88px;
+        height: 88px;
     }
 
     .main-content {
