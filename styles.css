@@ -267,15 +267,15 @@ a:hover {
     margin-top: 4px;
     margin-bottom: 12px;
     position: relative;
-    padding-left: 26px;
+    padding-left: 22px;
 }
 
 .about-corner-logo {
     position: absolute;
     left: -2px;
-    top: 2px;
-    width: 16px;
-    height: 16px;
+    top: 4px;
+    width: 12px;
+    height: 12px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -430,8 +430,8 @@ a:hover {
     padding: 12px 0;
     background: transparent;
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 96px;
-    gap: 18px;
+    grid-template-columns: minmax(0, 1fr) 72px;
+    gap: 14px;
     align-items: center;
 }
 
@@ -472,8 +472,8 @@ a:hover {
 }
 
 .internship-logo-frame {
-    width: 96px;
-    height: 96px;
+    width: 72px;
+    height: 72px;
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -608,8 +608,8 @@ li {
     }
 
     .internship-logo-frame {
-        width: 88px;
-        height: 88px;
+        width: 64px;
+        height: 64px;
     }
 
     .main-content {
